@@ -1,0 +1,256 @@
+[2025-09-13 22:54:56] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://demo.opencart.com
+[2025-09-13 22:54:57] INFO  ramchavantestautomation.Utils.Log - Test suite started: Chrome Tests
+[2025-09-13 22:54:57] INFO  ramchavantestautomation.Utils.Log - Test suite started: Firefox Tests
+[2025-09-13 22:54:58] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: invalidLoginTest
+[2025-09-13 22:54:58] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: invalidLoginTest
+[2025-09-13 22:55:30] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 22:55:30] INFO  ramchavantestautomation.Utils.Log - Test started: invalidLoginTest
+[2025-09-13 22:55:30] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1 / 123
+[2025-09-13 22:55:40] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 22:55:40] INFO  ramchavantestautomation.Utils.Log - Test started: invalidLoginTest
+[2025-09-13 22:55:40] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1 / 123
+[2025-09-13 22:56:12] INFO  ramchavantestautomation.Utils.Log - Test passed: invalidLoginTest
+[2025-09-13 22:56:12] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: invalidLoginTest
+[2025-09-13 22:56:22] INFO  ramchavantestautomation.Utils.Log - Test passed: invalidLoginTest
+[2025-09-13 22:56:22] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: invalidLoginTest
+[2025-09-13 22:56:54] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 22:56:54] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: invalidLoginTest
+[2025-09-13 22:57:04] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 22:57:04] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: invalidLoginTest
+[2025-09-13 22:57:36] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 22:57:36] INFO  ramchavantestautomation.Utils.Log - Test started: invalidLoginTest
+[2025-09-13 22:57:36] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2 / short
+[2025-09-13 22:57:46] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 22:57:46] INFO  ramchavantestautomation.Utils.Log - Test started: invalidLoginTest
+[2025-09-13 22:57:46] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2 / short
+[2025-09-13 22:58:18] INFO  ramchavantestautomation.Utils.Log - Test passed: invalidLoginTest
+[2025-09-13 22:58:18] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: invalidLoginTest
+[2025-09-13 22:58:28] INFO  ramchavantestautomation.Utils.Log - Test passed: invalidLoginTest
+[2025-09-13 22:58:28] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: invalidLoginTest
+[2025-09-13 22:59:00] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 22:59:00] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-13 22:59:10] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 22:59:10] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-13 22:59:42] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 22:59:42] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-13 22:59:42] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
+[2025-09-13 22:59:52] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 22:59:52] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-13 22:59:52] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
+[2025-09-13 23:00:23] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
+[2025-09-13 23:00:23] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-13 23:00:34] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
+[2025-09-13 23:00:34] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-13 23:01:05] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 23:01:05] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-13 23:01:16] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 23:01:16] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-13 23:01:47] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 23:01:47] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-13 23:01:47] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
+[2025-09-13 23:01:58] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 23:01:58] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-13 23:01:58] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
+[2025-09-13 23:02:30] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
+[2025-09-13 23:02:30] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-13 23:02:40] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
+[2025-09-13 23:02:40] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-13 23:03:11] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 23:03:11] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-13 23:03:22] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 23:03:22] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-13 23:03:53] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 23:03:53] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-13 23:03:53] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
+[2025-09-13 23:04:04] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 23:04:04] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-13 23:04:04] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
+[2025-09-13 23:04:35] ERROR ramchavantestautomation.Utils.Log - Test failed: validLoginTest - java.lang.AssertionError: Login method returned false for: user1@test expected [true] but found [false]
+[2025-09-13 23:04:35] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-13 23:04:46] ERROR ramchavantestautomation.Utils.Log - Test failed: validLoginTest - java.lang.AssertionError: Login method returned false for: user1@test expected [true] but found [false]
+[2025-09-13 23:04:46] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-13 23:05:18] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 23:05:18] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-13 23:05:28] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 23:05:28] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-13 23:06:00] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 23:06:00] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-13 23:06:00] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
+[2025-09-13 23:06:10] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 23:06:10] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-13 23:06:10] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
+[2025-09-13 23:06:42] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
+[2025-09-13 23:06:42] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-13 23:06:52] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
+[2025-09-13 23:06:52] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-13 23:07:24] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 23:07:24] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-13 23:07:34] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 23:07:34] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-13 23:08:06] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 23:08:06] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-13 23:08:06] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
+[2025-09-13 23:08:16] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 23:08:16] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-13 23:08:16] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
+[2025-09-13 23:08:48] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
+[2025-09-13 23:08:48] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-13 23:08:58] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
+[2025-09-13 23:08:58] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-13 23:09:30] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 23:09:30] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-13 23:09:40] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 23:09:40] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-13 23:10:12] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 23:10:12] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-13 23:10:12] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
+[2025-09-13 23:10:22] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 23:10:22] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-13 23:10:22] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
+[2025-09-13 23:10:54] ERROR ramchavantestautomation.Utils.Log - Test failed: validLoginTest - java.lang.AssertionError: Login method returned false for: user2@test expected [true] but found [false]
+[2025-09-13 23:10:54] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-13 23:11:04] ERROR ramchavantestautomation.Utils.Log - Test failed: validLoginTest - java.lang.AssertionError: Login method returned false for: user2@test expected [true] but found [false]
+[2025-09-13 23:11:04] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-13 23:11:36] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 23:11:36] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-13 23:11:46] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 23:11:46] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-13 23:12:18] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 23:12:18] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-13 23:12:18] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-13 23:12:18] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-13 23:12:28] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-13 23:12:28] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-13 23:12:28] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-13 23:12:28] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-13 23:13:00] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 23:13:01] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Firefox Tests
+[2025-09-13 23:13:11] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-13 23:13:11] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Chrome Tests
+[2025-09-13 23:13:11] INFO  ramchavantestautomation.Utils.Log - === Browser closed & Extent report flushed ===
+[2025-09-14 00:48:54] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://demo.opencart.com
+[2025-09-14 00:48:54] INFO  ramchavantestautomation.Utils.Log - Test suite started: Chrome Tests
+[2025-09-14 00:48:54] INFO  ramchavantestautomation.Utils.Log - Test suite started: Firefox Tests
+[2025-09-14 00:48:55] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: invalidLoginTest
+[2025-09-14 00:48:55] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: invalidLoginTest
+[2025-09-14 00:49:28] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 00:49:28] INFO  ramchavantestautomation.Utils.Log - Test started: invalidLoginTest
+[2025-09-14 00:49:28] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1 / 123
+[2025-09-14 00:49:39] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 00:49:39] INFO  ramchavantestautomation.Utils.Log - Test started: invalidLoginTest
+[2025-09-14 00:49:39] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1 / 123
+[2025-09-14 00:50:11] INFO  ramchavantestautomation.Utils.Log - Test passed: invalidLoginTest
+[2025-09-14 00:50:11] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: invalidLoginTest
+[2025-09-14 00:50:22] INFO  ramchavantestautomation.Utils.Log - Test passed: invalidLoginTest
+[2025-09-14 00:50:22] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: invalidLoginTest
+[2025-09-14 00:50:54] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-14 00:50:54] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: invalidLoginTest
+[2025-09-14 00:51:04] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-14 00:51:04] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: invalidLoginTest
+[2025-09-14 00:51:37] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 00:51:37] INFO  ramchavantestautomation.Utils.Log - Test started: invalidLoginTest
+[2025-09-14 00:51:37] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2 / short
+[2025-09-14 00:51:47] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 00:51:47] INFO  ramchavantestautomation.Utils.Log - Test started: invalidLoginTest
+[2025-09-14 00:51:47] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2 / short
+[2025-09-14 00:52:20] INFO  ramchavantestautomation.Utils.Log - Test passed: invalidLoginTest
+[2025-09-14 00:52:20] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: invalidLoginTest
+[2025-09-14 00:52:30] INFO  ramchavantestautomation.Utils.Log - Test passed: invalidLoginTest
+[2025-09-14 00:52:30] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: invalidLoginTest
+[2025-09-14 00:53:03] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-14 00:53:03] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-14 00:53:14] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-14 00:53:14] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-14 00:53:46] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 00:53:46] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-14 00:53:46] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
+[2025-09-14 00:53:56] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 00:53:56] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-14 00:53:56] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
+[2025-09-14 00:54:29] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
+[2025-09-14 00:54:29] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-14 00:54:39] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
+[2025-09-14 00:54:39] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-14 00:55:12] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-14 00:55:12] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-14 00:55:23] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-14 00:55:23] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-14 00:55:55] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 00:55:55] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-14 00:55:55] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
+[2025-09-14 00:56:05] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 00:56:05] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-14 00:56:05] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
+[2025-09-14 00:56:38] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
+[2025-09-14 00:56:38] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-14 00:56:48] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
+[2025-09-14 00:56:48] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-14 00:57:21] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-14 00:57:21] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-14 00:57:32] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-14 00:57:32] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-14 00:58:04] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 00:58:04] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-14 00:58:04] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
+[2025-09-14 00:58:14] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 00:58:14] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-14 00:58:14] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
+[2025-09-14 00:58:47] ERROR ramchavantestautomation.Utils.Log - Test failed: validLoginTest - java.lang.AssertionError: Login method returned false for: user1@test expected [true] but found [false]
+[2025-09-14 00:58:47] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-14 00:58:57] ERROR ramchavantestautomation.Utils.Log - Test failed: validLoginTest - java.lang.AssertionError: Login method returned false for: user1@test expected [true] but found [false]
+[2025-09-14 00:59:08] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-14 00:59:19] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 00:59:19] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-14 00:59:19] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
+[2025-09-14 00:59:51] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-14 00:59:51] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-14 01:00:02] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
+[2025-09-14 01:00:02] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-14 01:00:34] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 01:00:34] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-14 01:00:34] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
+[2025-09-14 01:00:45] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-14 01:00:45] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-14 01:01:17] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
+[2025-09-14 01:01:17] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-14 01:01:28] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 01:01:28] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-14 01:01:28] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
+[2025-09-14 01:02:00] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-14 01:02:00] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-14 01:02:11] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
+[2025-09-14 01:02:11] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-14 01:02:43] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 01:02:43] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-14 01:02:43] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
+[2025-09-14 01:02:54] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-14 01:02:54] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-14 01:03:26] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
+[2025-09-14 01:03:26] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-14 01:03:37] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 01:03:37] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-14 01:03:37] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
+[2025-09-14 01:04:09] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-14 01:04:09] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
+[2025-09-14 01:04:20] ERROR ramchavantestautomation.Utils.Log - Test failed: validLoginTest - java.lang.AssertionError: Login method returned false for: user2@test expected [true] but found [false]
+[2025-09-14 01:04:20] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-14 01:04:52] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 01:04:52] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
+[2025-09-14 01:04:52] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
+[2025-09-14 01:05:03] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 01:05:03] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-14 01:05:03] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-14 01:05:03] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-14 01:05:35] ERROR ramchavantestautomation.Utils.Log - Test failed: validLoginTest - java.lang.AssertionError: Login method returned false for: user2@test expected [true] but found [false]
+[2025-09-14 01:05:46] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-14 01:05:46] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+[2025-09-14 01:05:47] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Chrome Tests
+[2025-09-14 01:06:08] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-14 01:06:08] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-14 01:06:29] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
+[2025-09-14 01:06:29] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-14 01:06:29] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-14 01:06:29] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-14 01:06:51] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
+[2025-09-14 01:06:51] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Firefox Tests
+[2025-09-14 01:06:52] INFO  ramchavantestautomation.Utils.Log - === Browser closed & Extent report flushed ===

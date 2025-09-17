@@ -2,6 +2,8 @@ package ramchavantestautomation.Pages;
 //package com.ramchavantestautomation.pages;
 
 import ramchavantestautomation.Base.BasePage;
+import ramchavantestautomation.WebActions.WebAction;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,21 +14,27 @@ import java.time.Duration;
 
 public class LoginPage extends BasePage {
 
-    @FindBy(id = "input-email")
+	WebAction action;
+	
+    @FindBy(id = "userEmail")
     private WebElement emailInput;
 
-    @FindBy(id = "input-password")
+    @FindBy(id = "userPassword")
     private WebElement passwordInput;
 
-    @FindBy(xpath = "//input[@type='submit' or @value='Login' or @value='Log In']")
-    private WebElement submitButton;
+    @FindBy(id="login")
+    private WebElement loginButton;
+    
+    @FindBy(xpath="//div[contains(@aria-label, 'Incorrect')]")
+    private WebElement errorMessage;
 
     public LoginPage(WebDriver driver) {
         super(driver);
+        action=new WebAction(driver);
     }
 
-    public boolean login(String username, String password) {
-        try {
+    public HomePage login(String username, String password) {
+        
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
             wait.until(ExpectedConditions.visibilityOf(emailInput));
             emailInput.clear();
@@ -35,12 +43,42 @@ public class LoginPage extends BasePage {
             passwordInput.clear();
             passwordInput.sendKeys(password);
 
-            submitButton.click();
+            loginButton.click();
+            return new HomePage(driver);
             // You can add wait and verification for successful login here
-            return true;
-        } catch (Exception e) {
-            return false;
-        }
+            
+        
     }
+    
+    public void enterUsername(String email)
+    {
+    	
+    	action.waitForElementToBeVisible(emailInput, 10);
+    	emailInput.clear();//to clear the field 
+    	emailInput.sendKeys(email);
+    }
+    
+    public void enterPassword(String pass)
+    {
+    	action.waitForElementToBeVisible(passwordInput, 10);
+    	emailInput.clear();
+    	passwordInput.sendKeys(pass);
+    }
+    
+    public HomePage clickOnLoginButton()
+    {
+    	action.waitForElementToBeClickable(loginButton, 10);
+    	loginButton.click();
+    	return new HomePage(driver);
+    }
+    
+    public boolean isErrorMessageDisplayed()
+    {
+    	action.waitForElementToBeVisible(errorMessage, 10);
+    	return action.isElementDisplayed(errorMessage);
+    
+    }
+
+
 }
 

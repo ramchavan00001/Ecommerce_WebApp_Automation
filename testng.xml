@@ -13,12 +13,13 @@
         </classes>
     </test>
 
-    <test name="Firefox Tests">
+  <!-- --> <test name="Firefox Tests">
         <parameter name="browser" value="firefox"/>
         <classes>
             <class name="ramchavantestautomation.Tests.LoginPageTest"/>
             <class name="ramchavantestautomation.Tests.SampleUnitTest"/>
         </classes>
     </test>
+     
 
 </suite>

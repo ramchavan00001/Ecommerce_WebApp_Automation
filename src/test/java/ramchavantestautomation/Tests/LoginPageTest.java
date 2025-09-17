@@ -1,36 +1,81 @@
 package ramchavantestautomation.Tests;
 
+import ramchavantestautomation.Pages.HomePage;
+
 //package ramchavantestautomation.Tests;
 
 import ramchavantestautomation.Pages.LoginPage;
 import ramchavantestautomation.Utils.ExcelDataProvider;
 import ramchavantestautomation.Utils.Log;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 public class LoginPageTest extends BaseTest {
 
-    @Test(dataProvider = "loginTestData", dataProviderClass = ExcelDataProvider.class,
-          retryAnalyzer = ramchavantestautomation.Retry.RetryAnalyzer.class)
-    public void validLoginTest(String username, String password) {
-        Log.info("Testing login with data provider: " + username + " / " + password);
+	LoginPage loginPage;
+	HomePage home;
+	SoftAssert soft;
 
-        LoginPage loginPage = new LoginPage(driver);
-        boolean result = loginPage.login(username, password);
+	@BeforeMethod(alwaysRun = true)
+	public void setupLoginPage() {
+		loginPage = new LoginPage(driver);
+		soft = new SoftAssert();
+	}
 
-        // Replace this with more meaningful verification for your AUT
-        Assert.assertTrue(result, "Login method returned false for: " + username);
-    }
+	@Test(dataProvider = "loginTestData", dataProviderClass = ExcelDataProvider.class, retryAnalyzer = ramchavantestautomation.Retry.RetryAnalyzer.class, groups = {
+			"smoke" })
+	public void verifyThatUserIsAbleToLoginWithValidCredentials(String username, String password) {
+		Log.startTestCase("verifyThatUserIsAbleToLoginWithValidCredentialsTest");
 
-    @Test(dataProvider = "invalidLoginData", dataProviderClass = ExcelDataProvider.class)
-    public void invalidLoginTest(String username, String password) {
-        Log.info("Testing invalid login with: " + username + " / " + password);
+		Log.info("Testing login with data provider: " + username + " / " + password);
+		try {
+			loginPage.enterUsername(username);
+			Log.info("Entered username: " + username);
+			loginPage.enterPassword(password);
+			Log.info("Entered password: " + password);
+			home = loginPage.clickOnLoginButton();
+			Log.info("Clicked on login button");
+			String actualHomePageText = home.getHomePageText();
+			Log.info("Fetched Homepage text after successfull login: " + actualHomePageText);
+			soft.assertEquals(actualHomePageText, "AUTOMATION",
+					"Homepage text is not properly fetched, please verify again");
 
-        LoginPage loginPage = new LoginPage(driver);
-        boolean result = loginPage.login(username, password);
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			home.logout();
+			soft.assertAll();
+		}
 
-        // For invalid login we expect either false or some failure - using simple assert
-        Assert.assertTrue(result == false || password.length() < 8, "Invalid login logic check");
-    }
+		Log.endTestCase("verifyThatUserIsAbleToLoginWithValidCredentialsTest");
+
+	}
+
+	@Test(dataProvider = "invalidLoginData", dataProviderClass = ExcelDataProvider.class, groups = { "smoke" })
+	public void verifyThatUserIsNotAbleToLoginWithInValidCredentials(String username, String password) {
+
+		Log.startTestCase("verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest");
+		Log.info("Testing invalid login with: " + username + " / " + password);
+
+		try {
+			loginPage.enterUsername(username);
+			Log.info("Entered username: " + username);
+			loginPage.enterPassword(password);
+			Log.info("Entered password: " + password);
+			home = loginPage.clickOnLoginButton();
+			Log.info("Clicked on login button");
+			Boolean errorDisplayed = loginPage.isErrorMessageDisplayed();
+			Log.info("Error displayed: "+errorDisplayed);
+			soft.assertTrue(errorDisplayed, "Error message should be displayed for invalid login!");
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			soft.assertAll();
+		}
+		
+		Log.endTestCase("verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest");
+	}
 }
-

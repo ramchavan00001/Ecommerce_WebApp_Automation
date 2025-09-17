@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1086.748" tests="20" errors="0" skipped="8" failures="6">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="41.62" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\RAM CHAVAN\AppData\Local\Temp\surefire8458442479918539520\surefirebooter-20250914004844933_3.jar C:\Users\RAM CHAVAN\AppData\Local\Temp\surefire8458442479918539520 2025-09-14T00-48-42_833-jvmRun1 surefire-20250914004844933_1tmp surefire_0-20250914004844933_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\RAM CHAVAN\AppData\Local\Temp\surefire10487810256258967052\surefirebooter-20250917193646202_3.jar C:\Users\RAM CHAVAN\AppData\Local\Temp\surefire10487810256258967052 2025-09-17T19-36-45_856-jvmRun1 surefire-20250917193646202_1tmp surefire_0-20250917193646202_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation\target\test-classes;D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation\target\classes;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\RAM CHAVAN\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\RAM CHAVAN\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\RAM CHAVAN\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\RAM CHAVAN\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\RAM CHAVAN\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\RAM CHAVAN\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\RAM CHAVAN\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\RAM CHAVAN\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\RAM CHAVAN\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\RAM CHAVAN\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\RAM CHAVAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\RAM CHAVAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\RAM CHAVAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\RAM CHAVAN\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\RAM CHAVAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\RAM CHAVAN\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\RAM CHAVAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\RAM CHAVAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\RAM CHAVAN\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\RAM CHAVAN\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\RAM CHAVAN\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\RAM CHAVAN\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\RAM CHAVAN\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\RAM CHAVAN\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\RAM CHAVAN\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\RAM CHAVAN\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\RAM CHAVAN\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\RAM CHAVAN\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\RAM CHAVAN\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\RAM CHAVAN\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\RAM CHAVAN\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\RAM CHAVAN\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\RAM CHAVAN\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\RAM CHAVAN\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\RAM CHAVAN\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\RAM CHAVAN\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\RAM CHAVAN\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\RAM CHAVAN\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\RAM CHAVAN\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\RAM CHAVAN\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\RAM CHAVAN\AppData\Local\Temp\surefire8458442479918539520\surefirebooter-20250914004844933_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\RAM CHAVAN\AppData\Local\Temp\surefire10487810256258967052\surefirebooter-20250917193646202_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.3+7-LTS-152"/>
@@ -61,359 +61,122 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="invalidLoginTest[bad1, 123](1)" classname="ramchavantestautomation.Tests.LoginPageTest" time="32.183">
-    <system-out><![CDATA[[00:48:54] [main] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://demo.opencart.com
-[00:48:54] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test suite started: Firefox Tests
-[00:48:54] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test suite started: Chrome Tests
-[00:48:55] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: invalidLoginTest
-[00:48:55] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: invalidLoginTest
-[00:49:28] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[00:49:28] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test started: invalidLoginTest
-[00:49:28] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1 / 123
-[00:49:39] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[00:49:39] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test started: invalidLoginTest
-[00:49:39] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1 / 123
+  <testcase name="verifyThatUserIsAbleToLoginWithValidCredentials[testautomationram@gmail.com, Test@1234](1)" classname="ramchavantestautomation.Tests.LoginPageTest" time="8.725">
+    <system-out><![CDATA[[19:36:49] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Chrome Tests
+[19:36:49] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Firefox Tests
+[19:36:57] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[19:36:57] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Driver hash: 214463957 Thread: 29
+[19:36:59] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[19:36:59] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[19:37:00] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[19:37:00] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[19:37:00] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[19:37:01] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[19:37:03] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[19:37:05] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[19:37:07] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[19:37:09] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Sept 14, 2025 12:48:46 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+Sept 17, 2025 7:36:49 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
 INFO: Using OpenTelemetry for tracing
 ]]></system-err>
   </testcase>
-  <testcase name="invalidLoginTest[bad1, 123](1)" classname="ramchavantestautomation.Tests.LoginPageTest" time="43.022">
-    <system-out><![CDATA[[00:50:11] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test passed: invalidLoginTest
-[00:50:11] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: invalidLoginTest
+  <testcase name="verifyThatUserIsAbleToLoginWithValidCredentials[testautomationram@gmail.com, Test@1234](1)" classname="ramchavantestautomation.Tests.LoginPageTest" time="2.664">
+    <system-out><![CDATA[[19:37:16] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[19:37:16] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[19:37:16] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[19:37:16] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[19:37:16] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[19:37:16] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[19:37:16] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[19:37:16] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Browser launched (firefox) & navigated to: https://rahulshettyacademy.com/client/
+[19:37:16] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Driver hash: 2138127423 Thread: 30
+[19:37:16] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[19:37:16] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[19:37:16] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[19:37:16] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[19:37:16] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[19:37:17] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Entered username: bad2@gmail.com
+[19:37:17] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[19:37:17] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[19:37:18] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Entered password: short
+[19:37:18] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[19:37:18] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[19:37:18] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[19:37:19] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
 ]]></system-out>
   </testcase>
-  <testcase name="invalidLoginTest[bad2, short](2)" classname="ramchavantestautomation.Tests.LoginPageTest" time="32.23">
-    <system-out><![CDATA[[00:50:22] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test passed: invalidLoginTest
-[00:50:22] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: invalidLoginTest
-[00:50:54] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
-[00:50:54] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: invalidLoginTest
-[00:51:04] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
-[00:51:04] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: invalidLoginTest
-[00:51:37] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[00:51:37] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test started: invalidLoginTest
-[00:51:37] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2 / short
-[00:51:47] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[00:51:47] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test started: invalidLoginTest
-[00:51:47] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2 / short
+  <testcase name="verifyThatUserIsNotAbleToLoginWithInValidCredentials[bad1@gmail.com, 123](1)" classname="ramchavantestautomation.Tests.LoginPageTest" time="3.69">
+    <system-out><![CDATA[[19:37:11] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[19:37:11] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[19:37:11] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[19:37:11] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[19:37:11] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[19:37:11] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[19:37:11] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[19:37:12] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Entered username: bad1@gmail.com
+[19:37:13] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Entered password: 123
+[19:37:14] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[19:37:14] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Error displayed: true
+[19:37:14] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
 ]]></system-out>
   </testcase>
-  <testcase name="invalidLoginTest[bad2, short](2)" classname="ramchavantestautomation.Tests.LoginPageTest" time="43.033">
-    <system-out><![CDATA[[00:52:20] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test passed: invalidLoginTest
-[00:52:20] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: invalidLoginTest
+  <testcase name="verifyThatUserIsNotAbleToLoginWithInValidCredentials[bad1@gmail.com, 123](1)" classname="ramchavantestautomation.Tests.LoginPageTest" time="1.103">
+    <system-out><![CDATA[[19:37:20] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Entered username: bad1@gmail.com
+[19:37:20] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Entered password: 123
+[19:37:21] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[19:37:21] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[19:37:21] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[19:37:21] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[19:37:21] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Error displayed: true
+[19:37:21] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
 ]]></system-out>
   </testcase>
-  <testcase name="validLoginTest[user1@test, pass123](1)" classname="ramchavantestautomation.Tests.LoginPageTest" time="0.0">
-    <skipped message="Login method returned false for: user1@test expected [true] but found [false]"/>
-    <system-out><![CDATA[[00:52:30] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test passed: invalidLoginTest
-[00:52:30] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: invalidLoginTest
-[00:53:03] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
-[00:53:03] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
-[00:53:14] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
-[00:53:14] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
-[00:53:46] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[00:53:46] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
-[00:53:46] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
-[00:53:56] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[00:53:56] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
-[00:53:56] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
+  <testcase name="verifyThatUserIsNotAbleToLoginWithInValidCredentials[bad2@gmail.com, short](2)" classname="ramchavantestautomation.Tests.LoginPageTest" time="0.107">
+    <system-out><![CDATA[[19:37:20] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[19:37:20] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[19:37:20] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[19:37:20] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[19:37:20] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[19:37:20] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[19:37:20] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[19:37:20] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Error displayed: true
+[19:37:20] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
 ]]></system-out>
   </testcase>
-  <testcase name="validLoginTest[user1@test, pass123](1)" classname="ramchavantestautomation.Tests.LoginPageTest" time="0.0">
-    <skipped message="Login method returned false for: user1@test expected [true] but found [false]"/>
-    <system-out><![CDATA[[00:54:29] [TestNG-tests-1] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
-[00:54:29] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
+  <testcase name="verifyThatUserIsNotAbleToLoginWithInValidCredentials[bad2@gmail.com, short](2)" classname="ramchavantestautomation.Tests.LoginPageTest" time="0.856">
+    <system-out><![CDATA[[19:37:22] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Entered password: short
+[19:37:23] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[19:37:23] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[19:37:23] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[19:37:23] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Error displayed: true
+[19:37:23] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
 ]]></system-out>
   </testcase>
-  <testcase name="validLoginTest[user1@test, pass123](2)" classname="ramchavantestautomation.Tests.LoginPageTest" time="0.0">
-    <skipped message="Login method returned false for: user1@test expected [true] but found [false]"/>
-    <system-out><![CDATA[[00:54:39] [TestNG-tests-2] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
-[00:54:39] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
-[00:55:12] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
-[00:55:12] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
-[00:55:23] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
-[00:55:23] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
-[00:55:55] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[00:55:55] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
-[00:55:55] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
-[00:56:05] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[00:56:05] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
-[00:56:05] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
-]]></system-out>
-  </testcase>
-  <testcase name="validLoginTest[user1@test, pass123](2)" classname="ramchavantestautomation.Tests.LoginPageTest" time="0.0">
-    <skipped message="Login method returned false for: user1@test expected [true] but found [false]"/>
-    <system-out><![CDATA[[00:56:38] [TestNG-tests-1] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
-[00:56:38] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
-]]></system-out>
-  </testcase>
-  <testcase name="validLoginTest[user1@test, pass123](3)" classname="ramchavantestautomation.Tests.LoginPageTest" time="32.304">
-    <failure message="Login method returned false for: user1@test expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Login method returned false for: user1@test expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at ramchavantestautomation.Tests.LoginPageTest.validLoginTest(LoginPageTest.java:22)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
-    <system-out><![CDATA[[00:56:48] [TestNG-tests-2] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
-[00:56:48] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
-[00:57:21] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
-[00:57:21] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
-[00:57:32] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
-[00:57:32] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
-[00:58:04] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[00:58:04] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
-[00:58:04] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
-[00:58:14] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[00:58:14] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
-[00:58:14] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user1@test / pass123
-]]></system-out>
-  </testcase>
-  <testcase name="validLoginTest[user1@test, pass123](3)" classname="ramchavantestautomation.Tests.LoginPageTest" time="43.092">
-    <failure message="Login method returned false for: user1@test expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Login method returned false for: user1@test expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at ramchavantestautomation.Tests.LoginPageTest.validLoginTest(LoginPageTest.java:22)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
-    <system-out><![CDATA[[00:58:47] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
-]]></system-out>
-  </testcase>
-  <testcase name="captureResult[[TestResult name=validLoginTest status=FAILURE method=LoginPageTest.validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@1aa7ecca] output={null}]](0)" classname="ramchavantestautomation.Tests.LoginPageTest" time="32.308">
-    <failure message="Cannot invoke &quot;ramchavantestautomation.WebActions.WebAction.captureScreenshot(String)&quot; because &quot;this.action&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "ramchavantestautomation.WebActions.WebAction.captureScreenshot(String)" because "this.action" is null
-	at ramchavantestautomation.Tests.BaseTest.captureResult(BaseTest.java:84)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
-    <system-out><![CDATA[[00:58:47] [TestNG-tests-1] ERROR ramchavantestautomation.Utils.Log - Test failed: validLoginTest - java.lang.AssertionError: Login method returned false for: user1@test expected [true] but found [false]
-]]></system-out>
-  </testcase>
-  <testcase name="captureResult[[TestResult name=validLoginTest status=FAILURE method=LoginPageTest.validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@1aa7ecca] output={null}]](0)" classname="ramchavantestautomation.Tests.LoginPageTest" time="43.105">
-    <failure message="Cannot invoke &quot;ramchavantestautomation.WebActions.WebAction.captureScreenshot(String)&quot; because &quot;this.action&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "ramchavantestautomation.WebActions.WebAction.captureScreenshot(String)" because "this.action" is null
-	at ramchavantestautomation.Tests.BaseTest.captureResult(BaseTest.java:84)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
-    <system-out><![CDATA[[01:04:20] [TestNG-tests-1] ERROR ramchavantestautomation.Utils.Log - Test failed: validLoginTest - java.lang.AssertionError: Login method returned false for: user2@test expected [true] but found [false]
-]]></system-out>
-  </testcase>
-  <testcase name="validLoginTest[user2@test, pass456](4)" classname="ramchavantestautomation.Tests.LoginPageTest" time="0.0">
-    <skipped message="Login method returned false for: user2@test expected [true] but found [false]"/>
-    <system-out><![CDATA[[00:58:57] [TestNG-tests-2] ERROR ramchavantestautomation.Utils.Log - Test failed: validLoginTest - java.lang.AssertionError: Login method returned false for: user1@test expected [true] but found [false]
-[00:59:08] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
-[00:59:19] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[00:59:19] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
-[00:59:19] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
-[00:59:51] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
-[00:59:51] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
-]]></system-out>
-  </testcase>
-  <testcase name="validLoginTest[user2@test, pass456](4)" classname="ramchavantestautomation.Tests.LoginPageTest" time="0.0">
-    <skipped message="Login method returned false for: user2@test expected [true] but found [false]"/>
-    <system-out><![CDATA[[01:00:02] [TestNG-tests-1] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
-[01:00:02] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
-[01:00:34] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[01:00:34] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
-[01:00:34] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
-[01:00:45] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
-[01:00:45] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
-]]></system-out>
-  </testcase>
-  <testcase name="validLoginTest[user2@test, pass456](5)" classname="ramchavantestautomation.Tests.LoginPageTest" time="0.0">
-    <skipped message="Login method returned false for: user2@test expected [true] but found [false]"/>
-    <system-out><![CDATA[[01:01:17] [TestNG-tests-2] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
-[01:01:17] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
-[01:01:28] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[01:01:28] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
-[01:01:28] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
-[01:02:00] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
-[01:02:00] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
-]]></system-out>
-  </testcase>
-  <testcase name="validLoginTest[user2@test, pass456](5)" classname="ramchavantestautomation.Tests.LoginPageTest" time="0.0">
-    <skipped message="Login method returned false for: user2@test expected [true] but found [false]"/>
-    <system-out><![CDATA[[01:02:11] [TestNG-tests-1] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
-[01:02:11] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
-[01:02:43] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[01:02:43] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
-[01:02:43] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
-[01:02:54] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
-[01:02:54] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
-]]></system-out>
-  </testcase>
-  <testcase name="validLoginTest[user2@test, pass456](6)" classname="ramchavantestautomation.Tests.LoginPageTest" time="43.1">
-    <failure message="Login method returned false for: user2@test expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Login method returned false for: user2@test expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at ramchavantestautomation.Tests.LoginPageTest.validLoginTest(LoginPageTest.java:22)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
-    <system-out><![CDATA[[01:03:26] [TestNG-tests-2] WARN  ramchavantestautomation.Utils.Log - Test skipped: validLoginTest
-[01:03:26] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
-[01:03:37] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[01:03:37] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
-[01:03:37] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
-[01:04:09] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
-[01:04:09] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: validLoginTest
-]]></system-out>
-  </testcase>
-  <testcase name="validLoginTest[user2@test, pass456](6)" classname="ramchavantestautomation.Tests.LoginPageTest" time="32.231">
-    <failure message="Login method returned false for: user2@test expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Login method returned false for: user2@test expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at ramchavantestautomation.Tests.LoginPageTest.validLoginTest(LoginPageTest.java:22)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
-    <system-out><![CDATA[[01:05:03] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
-[01:05:03] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
-]]></system-out>
-  </testcase>
-  <testcase name="alwaysPass" classname="ramchavantestautomation.Tests.SampleUnitTest" time="0.008">
-    <system-out><![CDATA[[01:04:20] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
-[01:04:52] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[01:04:52] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test started: validLoginTest
-[01:04:52] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: user2@test / pass456
-[01:05:03] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[01:05:03] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+  <testcase name="alwaysPass" classname="ramchavantestautomation.Tests.SampleUnitTest" time="0.001">
+    <system-out><![CDATA[[19:37:22] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[19:37:22] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[19:37:22] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[19:37:22] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[19:37:22] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[19:37:22] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[19:37:22] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[19:37:22] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Entered username: bad2@gmail.com
+[19:37:22] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Default login attempted.
+[19:37:22] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
 ]]></system-out>
   </testcase>
   <testcase name="alwaysPass" classname="ramchavantestautomation.Tests.SampleUnitTest" time="0.0">
-    <system-out><![CDATA[[01:05:35] [TestNG-tests-2] ERROR ramchavantestautomation.Utils.Log - Test failed: validLoginTest - java.lang.AssertionError: Login method returned false for: user2@test expected [true] but found [false]
-[01:05:46] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
-[01:05:46] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: validLoginTest
-[01:05:47] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Chrome Tests
-[01:06:08] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
-[01:06:08] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
-[01:06:29] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - loginToApplication attempted: false
-[01:06:29] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+    <system-out><![CDATA[[19:37:23] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - Default logout attempted.
+[19:37:24] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[19:37:24] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[19:37:24] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[19:37:24] [TestNG-tests-1] INFO  ramchavantestautomation.Utils.Log - === Browser closed for thread 29 ===
+[19:37:25] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Default login attempted.
+[19:37:25] [TestNG-tests-2] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
 ]]></system-out>
   </testcase>
 </testsuite>

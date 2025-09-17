@@ -254,3 +254,1262 @@
 [2025-09-14 01:06:51] INFO  ramchavantestautomation.Utils.Log - logoutFromApplication attempted
 [2025-09-14 01:06:51] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Firefox Tests
 [2025-09-14 01:06:52] INFO  ramchavantestautomation.Utils.Log - === Browser closed & Extent report flushed ===
+[2025-09-15 20:50:28] INFO  ramchavantestautomation.Utils.Log - Old screenshots cleaned from: D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation/screenshots/
+[2025-09-15 20:50:38] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-15 20:50:38] INFO  ramchavantestautomation.Utils.Log - Test suite started: Firefox Tests
+[2025-09-15 20:50:38] INFO  ramchavantestautomation.Utils.Log - Test suite started: Chrome Tests
+[2025-09-15 20:50:41] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 20:50:41] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 20:50:44] INFO  ramchavantestautomation.Utils.Log - Default login attempted: true
+[2025-09-15 20:50:44] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 20:50:44] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-15 20:50:44] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-15 20:50:44] INFO  ramchavantestautomation.Utils.Log - Default login attempted: true
+[2025-09-15 20:50:44] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 20:50:44] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-15 20:50:44] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-15 20:50:45] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-15 20:50:46] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-15 20:50:47] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-15 20:50:47] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-15 20:50:48] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-15 20:50:48] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-15 20:51:19] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-15 20:51:19] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 20:51:19] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 20:51:19] INFO  ramchavantestautomation.Utils.Log - Skipping default logout for a login test.
+[2025-09-15 20:51:19] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 20:51:30] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-15 20:51:30] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 20:51:30] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 20:51:30] INFO  ramchavantestautomation.Utils.Log - Skipping default logout for a login test.
+[2025-09-15 20:51:30] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 20:51:31] INFO  ramchavantestautomation.Utils.Log - Default login attempted: true
+[2025-09-15 20:51:31] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 20:51:31] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-15 20:51:31] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1 / 123
+[2025-09-15 20:51:31] INFO  ramchavantestautomation.Utils.Log - Default login attempted: true
+[2025-09-15 20:51:31] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 20:51:31] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-15 20:51:31] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1 / 123
+[2025-09-15 20:51:42] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-15 20:51:42] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 20:51:42] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 20:51:42] INFO  ramchavantestautomation.Utils.Log - Skipping default logout for a login test.
+[2025-09-15 20:51:42] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 20:51:52] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-15 20:51:52] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 20:51:52] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 20:51:52] INFO  ramchavantestautomation.Utils.Log - Skipping default logout for a login test.
+[2025-09-15 20:51:52] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 20:52:24] INFO  ramchavantestautomation.Utils.Log - Default login attempted: false
+[2025-09-15 20:52:24] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 20:52:24] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-15 20:52:24] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2 / short
+[2025-09-15 20:52:34] INFO  ramchavantestautomation.Utils.Log - Default login attempted: false
+[2025-09-15 20:52:34] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 20:52:34] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-15 20:52:34] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2 / short
+[2025-09-15 20:53:06] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-15 20:53:06] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 20:53:06] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 20:53:06] INFO  ramchavantestautomation.Utils.Log - Skipping default logout for a login test.
+[2025-09-15 20:53:06] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-15 20:53:16] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-15 20:53:16] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 20:53:16] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 20:53:16] INFO  ramchavantestautomation.Utils.Log - Skipping default logout for a login test.
+[2025-09-15 20:53:16] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-15 20:53:48] INFO  ramchavantestautomation.Utils.Log - Default login attempted: false
+[2025-09-15 20:53:48] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-15 20:53:48] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-15 20:53:48] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-15 20:53:58] INFO  ramchavantestautomation.Utils.Log - Default login attempted: false
+[2025-09-15 20:53:58] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-15 20:53:58] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-15 20:53:58] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-15 20:53:59] INFO  ramchavantestautomation.Utils.Log - Default logout attempted.
+[2025-09-15 20:53:59] WARN  ramchavantestautomation.Utils.Log - Default logout failed or skipped: stale element reference: stale element not found in the current frame
+  (Session info: chrome=125.0.6422.76)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [84d9b21cb4a2cf86085e87361d2656ea, clickElement {id=f.55E87736EEB049303C2CE49CAFBF8EE9.d.CDDF951981B43EAC171F4FE0DC887C03.e.97}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.76, chrome: {chromedriverVersion: 125.0.6422.76 (67dcf7562b8f..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33913}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.4:4444/sessio..., se:cdpVersion: 125.0.6422.76, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (84d9b21cb4a2cf86085e87361d2656ea)] -> xpath: //button[@class='btn btn-custom'][contains(., 'Sign Out')]]
+Session ID: 84d9b21cb4a2cf86085e87361d2656ea
+[2025-09-15 20:53:59] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Firefox Tests
+[2025-09-15 20:53:59] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Chrome Tests
+[2025-09-15 20:53:59] INFO  ramchavantestautomation.Utils.Log - === Browser closed & Extent report flushed ===
+[2025-09-15 21:07:57] INFO  ramchavantestautomation.Utils.Log - Old screenshots cleaned from: D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation/screenshots/
+[2025-09-15 21:08:04] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-15 21:08:04] INFO  ramchavantestautomation.Utils.Log - Test suite started: Default test
+[2025-09-15 21:08:05] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 21:08:06] INFO  ramchavantestautomation.Utils.Log - Default login attempted: true
+[2025-09-15 21:08:06] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 21:08:06] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-15 21:08:06] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-15 21:08:17] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-15 21:08:17] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 21:08:17] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 21:08:17] INFO  ramchavantestautomation.Utils.Log - Skipping default logout for a login test.
+[2025-09-15 21:08:18] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Default test
+[2025-09-15 21:08:18] INFO  ramchavantestautomation.Utils.Log - === Browser closed & Extent report flushed ===
+[2025-09-15 21:28:23] INFO  ramchavantestautomation.Utils.Log - Old screenshots cleaned from: D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation/screenshots/
+[2025-09-15 21:28:31] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-15 21:28:31] INFO  ramchavantestautomation.Utils.Log - Test suite started: Firefox Tests
+[2025-09-15 21:28:31] INFO  ramchavantestautomation.Utils.Log - Test suite started: Chrome Tests
+[2025-09-15 21:28:33] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 21:28:33] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-15 21:28:33] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 21:28:33] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-15 21:28:33] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 21:28:33] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 21:28:33] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-15 21:28:33] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-15 21:28:33] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-15 21:28:33] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-15 21:28:34] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-15 21:28:35] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-15 21:28:35] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-15 21:28:35] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-15 21:28:36] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-15 21:28:47] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-15 21:28:57] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-15 21:28:57] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 21:28:57] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 21:28:57] INFO  ramchavantestautomation.Utils.Log - Skipping default logout for a login test.
+[2025-09-15 21:28:57] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 21:28:57] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-15 21:28:57] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 21:28:57] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-15 21:28:57] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1 / 123
+[2025-09-15 21:29:18] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-15 21:29:18] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 21:29:18] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 21:29:18] INFO  ramchavantestautomation.Utils.Log - Skipping default logout for a login test.
+[2025-09-15 21:29:19] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 21:29:19] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-15 21:29:19] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 21:29:19] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-15 21:29:19] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1 / 123
+[2025-09-15 21:29:41] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsNotAbleToLoginWithInValidCredentials - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@aria-label='Incorrect email or password.' and @role='alert']' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-15 21:29:41] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 21:29:41] INFO  ramchavantestautomation.Utils.Log - Skipping default logout for a login test.
+[2025-09-15 21:29:41] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 21:29:41] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-15 21:29:41] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 21:29:41] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-15 21:29:41] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2 / short
+[2025-09-15 21:30:02] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsNotAbleToLoginWithInValidCredentials - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@aria-label='Incorrect email or password.' and @role='alert']' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-15 21:30:02] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 21:30:02] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-15 21:30:02] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 21:30:02] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 21:30:02] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 21:30:02] INFO  ramchavantestautomation.Utils.Log - Skipping default logout for a login test.
+[2025-09-15 21:30:02] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-15 21:30:04] INFO  ramchavantestautomation.Utils.Log - Default login attempted: 
+[2025-09-15 21:30:04] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-15 21:30:04] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-15 21:30:04] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-15 21:30:05] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsNotAbleToLoginWithInValidCredentials - java.lang.AssertionError: The following asserts failed:
+	User should not be navigated to HomePage with invalid credentials! expected [null] but found [ramchavantestautomation.Pages.HomePage@4eaa77db]
+[2025-09-15 21:30:05] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 21:30:05] INFO  ramchavantestautomation.Utils.Log - Skipping default logout for a login test.
+[2025-09-15 21:30:05] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-15 21:30:26] WARN  ramchavantestautomation.Utils.Log - Default login failed or skipped: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: userEmail' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-15 21:30:26] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-15 21:30:26] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-15 21:30:27] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-15 21:30:27] INFO  ramchavantestautomation.Utils.Log - Default logout attempted.
+[2025-09-15 21:30:27] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Chrome Tests
+[2025-09-15 21:30:48] WARN  ramchavantestautomation.Utils.Log - Default logout failed or skipped: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='btn btn-custom'][contains(., 'Sign Out')]' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-15 21:30:48] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Firefox Tests
+[2025-09-15 21:30:48] INFO  ramchavantestautomation.Utils.Log - === Browser closed & Extent report flushed ===
+[2025-09-15 22:57:31] INFO  ramchavantestautomation.Utils.Log - Old screenshots cleaned from: D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation/screenshots/
+[2025-09-15 22:57:42] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-15 22:57:42] INFO  ramchavantestautomation.Utils.Log - Test suite started: Firefox Tests
+[2025-09-15 22:57:42] INFO  ramchavantestautomation.Utils.Log - Test suite started: Chrome Tests
+[2025-09-15 22:57:44] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 22:57:44] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 22:57:44] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-15 22:57:44] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-15 22:57:44] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 22:57:44] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 22:57:44] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-15 22:57:44] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-15 22:57:44] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-15 22:57:44] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-15 22:57:46] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-15 22:57:46] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-15 22:57:46] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-15 22:57:46] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-15 22:57:47] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-15 22:57:47] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-15 22:58:20] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-15 22:58:20] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 22:58:20] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 22:58:20] INFO  ramchavantestautomation.Utils.Log - Skipping default logout for a login test.
+[2025-09-15 22:58:20] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 22:58:20] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-15 22:58:20] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 22:58:20] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-15 22:58:20] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2025-09-15 22:58:31] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-15 22:58:31] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 22:58:31] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-15 22:58:31] INFO  ramchavantestautomation.Utils.Log - Skipping default logout for a login test.
+[2025-09-15 22:58:31] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 22:58:31] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-15 22:58:31] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 22:58:31] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-15 22:58:31] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2025-09-15 22:58:33] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsNotAbleToLoginWithInValidCredentials - java.lang.AssertionError: The following asserts failed:
+	User should not be navigated to HomePage with invalid credentials! expected [null] but found [ramchavantestautomation.Pages.HomePage@5a02c1fe]
+[2025-09-15 22:58:34] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsNotAbleToLoginWithInValidCredentials - java.lang.AssertionError: The following asserts failed:
+	User should not be navigated to HomePage with invalid credentials! expected [null] but found [ramchavantestautomation.Pages.HomePage@1b25c570]
+[2025-09-15 22:58:34] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 22:58:34] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-15 22:58:34] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 22:58:34] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 22:58:34] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 22:58:34] INFO  ramchavantestautomation.Utils.Log - Skipping default logout for a login test.
+[2025-09-15 22:58:34] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-15 22:58:34] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 22:58:34] INFO  ramchavantestautomation.Utils.Log - Skipping default logout for a login test.
+[2025-09-15 22:58:34] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 22:58:34] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-15 22:58:34] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 22:58:34] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-15 22:58:34] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[2025-09-15 22:58:35] INFO  ramchavantestautomation.Utils.Log - Default login attempted: 
+[2025-09-15 22:58:35] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-15 22:58:35] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-15 22:58:35] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-15 22:58:58] WARN  ramchavantestautomation.Utils.Log - Default logout failed or skipped: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='btn btn-custom'][contains(., 'Sign Out')]' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-15 22:58:59] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Chrome Tests
+[2025-09-15 22:58:59] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsNotAbleToLoginWithInValidCredentials - java.lang.AssertionError: The following asserts failed:
+	User should not be navigated to HomePage with invalid credentials! expected [null] but found [ramchavantestautomation.Pages.HomePage@78084c3e]
+[2025-09-15 22:59:02] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-15 22:59:02] INFO  ramchavantestautomation.Utils.Log - Skipping default logout for a login test.
+[2025-09-15 22:59:02] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-15 22:59:03] INFO  ramchavantestautomation.Utils.Log - Default login attempted: 
+[2025-09-15 22:59:03] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-15 22:59:03] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-15 22:59:03] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-15 22:59:04] INFO  ramchavantestautomation.Utils.Log - Default logout attempted.
+[2025-09-15 22:59:04] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Firefox Tests
+[2025-09-15 22:59:04] INFO  ramchavantestautomation.Utils.Log - === Browser closed & Extent report flushed ===
+[2025-09-17 11:41:40] INFO  ramchavantestautomation.Utils.Log - Old screenshots cleaned from: D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation/screenshots/
+[2025-09-17 11:41:49] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-17 11:41:49] INFO  ramchavantestautomation.Utils.Log - Test suite started: Firefox Tests
+[2025-09-17 11:41:49] INFO  ramchavantestautomation.Utils.Log - Test suite started: Chrome Tests
+[2025-09-17 11:41:50] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 11:41:50] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 11:41:50] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 11:41:50] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 11:41:51] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 11:41:51] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 11:41:51] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 11:41:51] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 11:41:51] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 11:41:51] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 11:41:51] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 11:41:52] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 11:41:52] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 11:41:52] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 11:41:53] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 11:41:53] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 11:42:23] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-17 11:42:23] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 11:42:23] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 11:42:23] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 11:42:23] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 11:42:23] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 11:42:23] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 11:42:23] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2025-09-17 11:42:33] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-17 11:42:33] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 11:42:33] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 11:42:33] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 11:42:33] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 11:42:33] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 11:42:33] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 11:42:33] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2025-09-17 11:43:05] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsNotAbleToLoginWithInValidCredentials - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@aria-label='Incorrect email or password.' and @role='alert']' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-17 11:43:05] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 11:43:05] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 11:43:05] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 11:43:05] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 11:43:05] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 11:43:05] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[2025-09-17 11:43:15] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsNotAbleToLoginWithInValidCredentials - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@aria-label='Incorrect email or password.' and @role='alert']' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-17 11:43:15] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 11:43:15] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 11:43:15] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 11:43:15] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 11:43:15] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 11:43:15] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[2025-09-17 11:43:57] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsNotAbleToLoginWithInValidCredentials - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@aria-label='Incorrect email or password.' and @role='alert']' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-17 11:43:57] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 11:43:57] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-17 11:43:57] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsNotAbleToLoginWithInValidCredentials - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@aria-label='Incorrect email or password.' and @role='alert']' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-17 11:43:57] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 11:43:57] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-17 11:43:58] INFO  ramchavantestautomation.Utils.Log - Default login attempted.
+[2025-09-17 11:43:58] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-17 11:43:58] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-17 11:43:58] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-17 11:44:09] WARN  ramchavantestautomation.Utils.Log - Default login failed or skipped: no such element: Unable to locate element: {"method":"css selector","selector":"#login"}
+  (Session info: chrome=125.0.6422.76)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [b9eb57f460a24d94e7a031267f585f19, findElement {value=login, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.76, chrome: {chromedriverVersion: 125.0.6422.76 (67dcf7562b8f..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46043}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.4:4444/sessio..., se:cdpVersion: 125.0.6422.76, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9eb57f460a24d94e7a031267f585f19
+[2025-09-17 11:44:09] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-17 11:44:09] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-17 11:44:09] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-17 11:44:09] INFO  ramchavantestautomation.Utils.Log - Default logout attempted.
+[2025-09-17 11:44:09] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Chrome Tests
+[2025-09-17 11:44:19] WARN  ramchavantestautomation.Utils.Log - Default logout failed or skipped: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='btn btn-custom'][contains(., 'Sign Out')]"}
+  (Session info: chrome=125.0.6422.76)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [b9eb57f460a24d94e7a031267f585f19, findElement {value=//button[@class='btn btn-custom'][contains(., 'Sign Out')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.76, chrome: {chromedriverVersion: 125.0.6422.76 (67dcf7562b8f..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46043}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.4:4444/sessio..., se:cdpVersion: 125.0.6422.76, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9eb57f460a24d94e7a031267f585f19
+[2025-09-17 11:44:19] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Firefox Tests
+[2025-09-17 11:44:19] INFO  ramchavantestautomation.Utils.Log - === Browser closed ===
+[2025-09-17 12:15:28] INFO  ramchavantestautomation.Utils.Log - Old screenshots cleaned from: D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation/screenshots/
+[2025-09-17 12:15:36] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-17 12:15:36] INFO  ramchavantestautomation.Utils.Log - Test suite started: Firefox Tests
+[2025-09-17 12:15:36] INFO  ramchavantestautomation.Utils.Log - Test suite started: Chrome Tests
+[2025-09-17 12:15:37] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:15:37] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:15:37] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:15:37] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:15:38] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:15:38] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:15:38] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 12:15:38] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 12:15:38] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 12:15:38] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 12:15:38] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 12:15:38] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 12:15:38] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 12:15:39] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 12:15:39] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:15:39] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:16:09] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-17 12:16:20] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-17 12:16:20] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:16:20] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:16:20] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsNotAbleToLoginWithInValidCredentials - org.testng.TestNGException: 
+Method public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String) requires a @DataProvider named : InvalidLoginData in class ramchavantestautomation.Utils.ExcelDataProvider
+[2025-09-17 12:16:20] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-17 12:16:20] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:16:20] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:16:21] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsNotAbleToLoginWithInValidCredentials - org.testng.TestNGException: 
+Method public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String) requires a @DataProvider named : InvalidLoginData in class ramchavantestautomation.Utils.ExcelDataProvider
+[2025-09-17 12:16:21] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-17 12:16:21] INFO  ramchavantestautomation.Utils.Log - Default login attempted.
+[2025-09-17 12:16:21] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-17 12:16:21] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-17 12:16:21] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-17 12:16:22] WARN  ramchavantestautomation.Utils.Log - Default login failed or skipped: stale element reference: stale element not found in the current frame
+  (Session info: chrome=125.0.6422.76)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ef104e5721a3ddeb3022e475ba68745e, clearElement {id=f.90B31F146829D5410DE93BD36DC96BA3.d.BD84E3A3DFA8DEF2036CC1A05E826724.e.2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.76, chrome: {chromedriverVersion: 125.0.6422.76 (67dcf7562b8f..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46065}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.4:4444/sessio..., se:cdpVersion: 125.0.6422.76, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (ef104e5721a3ddeb3022e475ba68745e)] -> id: userPassword]
+Session ID: ef104e5721a3ddeb3022e475ba68745e
+[2025-09-17 12:16:22] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-17 12:16:22] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-17 12:16:22] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-17 12:16:22] INFO  ramchavantestautomation.Utils.Log - Default logout attempted.
+[2025-09-17 12:16:22] WARN  ramchavantestautomation.Utils.Log - Default logout failed or skipped: stale element reference: stale element not found in the current frame
+  (Session info: chrome=125.0.6422.76)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ef104e5721a3ddeb3022e475ba68745e, isElementDisplayed {id=f.90B31F146829D5410DE93BD36DC96BA3.d.BD84E3A3DFA8DEF2036CC1A05E826724.e.77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.76, chrome: {chromedriverVersion: 125.0.6422.76 (67dcf7562b8f..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46065}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.4:4444/sessio..., se:cdpVersion: 125.0.6422.76, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (ef104e5721a3ddeb3022e475ba68745e)] -> xpath: //button[@class='btn btn-custom'][contains(., 'Sign Out')]]
+Session ID: ef104e5721a3ddeb3022e475ba68745e
+[2025-09-17 12:16:23] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Firefox Tests
+[2025-09-17 12:16:23] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Chrome Tests
+[2025-09-17 12:16:23] INFO  ramchavantestautomation.Utils.Log - === Browser closed ===
+[2025-09-17 12:26:32] INFO  ramchavantestautomation.Utils.Log - Old screenshots cleaned from: D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation/screenshots/
+[2025-09-17 12:26:41] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-17 12:26:41] INFO  ramchavantestautomation.Utils.Log - Test suite started: Default test
+[2025-09-17 12:26:42] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:26:42] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:26:42] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:26:42] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 12:26:42] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 12:26:43] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 12:26:43] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 12:26:43] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:26:44] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[2025-09-17 12:26:44] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:26:44] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:26:44] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:26:44] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:26:44] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:26:44] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 12:26:44] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 12:27:04] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-17 12:27:05] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:27:05] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:27:05] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Default test
+[2025-09-17 12:27:05] INFO  ramchavantestautomation.Utils.Log - === Browser closed ===
+[2025-09-17 12:28:41] INFO  ramchavantestautomation.Utils.Log - Old screenshots cleaned from: D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation/screenshots/
+[2025-09-17 12:28:45] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-17 12:28:45] INFO  ramchavantestautomation.Utils.Log - Test suite started: Default test
+[2025-09-17 12:28:46] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:28:46] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:28:46] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:28:46] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 12:28:46] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 12:28:47] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 12:28:47] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 12:28:48] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:28:48] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[2025-09-17 12:28:48] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:28:48] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:28:48] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:28:48] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:28:48] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:28:48] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 12:28:48] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 12:28:49] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 12:28:49] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 12:28:50] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:28:50] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[2025-09-17 12:28:50] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:28:50] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:28:50] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:28:50] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:28:50] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:28:50] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 12:28:50] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 12:28:50] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 12:28:51] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 12:28:51] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:28:51] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[2025-09-17 12:28:52] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsAbleToLoginWithValidCredentials - java.lang.AssertionError: The following asserts failed:
+	Homepage text is not properly fetched, please verify again expected [Automation] but found [AUTOMATION]
+[2025-09-17 12:28:52] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:28:53] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Default test
+[2025-09-17 12:28:53] INFO  ramchavantestautomation.Utils.Log - === Browser closed ===
+[2025-09-17 12:29:40] INFO  ramchavantestautomation.Utils.Log - Old screenshots cleaned from: D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation/screenshots/
+[2025-09-17 12:29:44] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-17 12:29:44] INFO  ramchavantestautomation.Utils.Log - Test suite started: Default test
+[2025-09-17 12:29:45] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:29:45] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:29:45] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:29:45] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 12:29:45] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 12:29:46] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 12:29:46] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 12:29:46] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:29:47] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[2025-09-17 12:29:47] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:29:47] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:29:47] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:29:47] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:29:47] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:29:47] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 12:29:47] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 12:29:47] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 12:29:48] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 12:29:48] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:29:48] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[2025-09-17 12:29:49] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:29:49] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:29:49] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:29:49] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:29:49] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:29:49] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 12:29:49] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 12:29:49] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 12:29:49] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 12:29:49] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:29:50] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[2025-09-17 12:29:51] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsAbleToLoginWithValidCredentials - java.lang.AssertionError: The following asserts failed:
+	Homepage text is not properly fetched, please verify again expected [Automation] but found [AUTOMATION]
+[2025-09-17 12:29:51] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:29:51] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Default test
+[2025-09-17 12:29:51] INFO  ramchavantestautomation.Utils.Log - === Browser closed ===
+[2025-09-17 12:30:40] INFO  ramchavantestautomation.Utils.Log - Old screenshots cleaned from: D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation/screenshots/
+[2025-09-17 12:30:45] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-17 12:30:45] INFO  ramchavantestautomation.Utils.Log - Test suite started: Default test
+[2025-09-17 12:30:46] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:30:46] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:30:46] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:30:46] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 12:30:46] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 12:30:46] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 12:30:46] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 12:30:47] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:30:47] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[2025-09-17 12:30:47] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-17 12:30:48] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:30:48] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:30:48] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Default test
+[2025-09-17 12:30:48] INFO  ramchavantestautomation.Utils.Log - === Browser closed ===
+[2025-09-17 12:31:27] INFO  ramchavantestautomation.Utils.Log - Old screenshots cleaned from: D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation/screenshots/
+[2025-09-17 12:31:30] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-17 12:31:30] INFO  ramchavantestautomation.Utils.Log - Test suite started: Chrome Tests
+[2025-09-17 12:31:30] INFO  ramchavantestautomation.Utils.Log - Test suite started: Firefox Tests
+[2025-09-17 12:31:31] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:31:31] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:31:31] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:31:31] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:31:31] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:31:31] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:31:31] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 12:31:31] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 12:31:31] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 12:31:31] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 12:31:32] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 12:31:32] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 12:31:32] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 12:31:32] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 12:31:33] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:31:33] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:32:44] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:32:44] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:32:44] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:32:44] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:32:44] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:32:44] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 12:32:44] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 12:32:54] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:32:54] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:32:54] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:32:54] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:32:54] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:32:54] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 12:32:54] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 12:32:54] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 12:32:55] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 12:32:55] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 12:32:55] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 12:32:56] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:32:56] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:34:07] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:34:07] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:34:07] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:34:07] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:34:07] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:34:07] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 12:34:07] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 12:34:17] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:34:17] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:34:17] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:34:17] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:34:17] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:34:17] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 12:34:17] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 12:34:17] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 12:34:17] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 12:34:17] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 12:34:17] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 12:34:18] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:34:18] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:35:39] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsAbleToLoginWithValidCredentials - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='btn btn-custom'][contains(., 'Sign Out')]' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-17 12:35:39] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:35:39] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 12:35:39] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:35:39] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 12:35:39] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 12:35:39] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2025-09-17 12:35:40] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsAbleToLoginWithValidCredentials - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='btn btn-custom'][contains(., 'Sign Out')]' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-17 12:35:40] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 12:35:40] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 12:35:40] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:35:40] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 12:35:40] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 12:35:40] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2025-09-17 12:35:40] INFO  ramchavantestautomation.Utils.Log - Entered username: bad1@gmail.com
+[2025-09-17 12:35:40] INFO  ramchavantestautomation.Utils.Log - Entered username: bad1@gmail.com
+[2025-09-17 12:35:40] INFO  ramchavantestautomation.Utils.Log - Entered password: 123
+[2025-09-17 12:35:40] INFO  ramchavantestautomation.Utils.Log - Entered password: 123
+[2025-09-17 12:35:41] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:36:01] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 12:36:01] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 12:36:01] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 12:36:01] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 12:36:01] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:36:01] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 12:36:01] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 12:36:01] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[2025-09-17 12:36:01] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:36:21] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 12:36:22] INFO  ramchavantestautomation.Utils.Log - Entered username: bad2@gmail.com
+[2025-09-17 12:36:22] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 12:36:22] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 12:36:22] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 12:36:22] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 12:36:22] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 12:36:22] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 12:36:22] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[2025-09-17 12:36:22] INFO  ramchavantestautomation.Utils.Log - Entered password: short
+[2025-09-17 12:36:22] INFO  ramchavantestautomation.Utils.Log - Entered username: bad2@gmail.com
+[2025-09-17 12:36:22] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:36:23] INFO  ramchavantestautomation.Utils.Log - Entered password: short
+[2025-09-17 12:36:43] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 12:36:43] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 12:36:43] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 12:36:43] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-17 12:36:43] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 12:37:04] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 12:37:04] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 12:37:04] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 12:37:04] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-17 12:37:05] INFO  ramchavantestautomation.Utils.Log - Default login attempted.
+[2025-09-17 12:37:05] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-17 12:37:05] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-17 12:37:05] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-17 12:37:05] WARN  ramchavantestautomation.Utils.Log - Default login failed or skipped: stale element reference: stale element not found in the current frame
+  (Session info: chrome=125.0.6422.76)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [26fa1c250c0cc0b19095157076e59973, sendKeysToElement {value=[Ljava.lang.CharSequence;@4090597a, id=f.1E1E05F58787ACD4077A7688EE319E79.d.CEE88AA236D4F627FA7847FCC262A458.e.4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.76, chrome: {chromedriverVersion: 125.0.6422.76 (67dcf7562b8f..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45865}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.4:4444/sessio..., se:cdpVersion: 125.0.6422.76, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (26fa1c250c0cc0b19095157076e59973)] -> id: userEmail]
+Session ID: 26fa1c250c0cc0b19095157076e59973
+[2025-09-17 12:37:05] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-17 12:37:05] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-17 12:37:05] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-17 12:37:06] INFO  ramchavantestautomation.Utils.Log - Default logout attempted.
+[2025-09-17 12:37:06] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Chrome Tests
+[2025-09-17 12:37:26] WARN  ramchavantestautomation.Utils.Log - Default logout failed or skipped: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='btn btn-custom'][contains(., 'Sign Out')]' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-17 12:37:26] INFO  ramchavantestautomation.Utils.Log - Test suite finished: Firefox Tests
+[2025-09-17 12:37:26] INFO  ramchavantestautomation.Utils.Log - === Browser closed ===
+[2025-09-17 17:20:40] INFO  ramchavantestautomation.Utils.Log - Old screenshots cleaned from: D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation/screenshots/
+[2025-09-17 17:20:51] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-17 17:20:51] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Chrome Tests
+[2025-09-17 17:20:51] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Firefox Tests
+[2025-09-17 17:20:53] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:20:53] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:20:53] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:20:53] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:20:54] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:20:54] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:20:54] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:20:54] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:20:54] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:20:54] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:20:54] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:20:55] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:20:55] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:20:55] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:20:56] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:20:56] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:22:08] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:22:08] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:22:08] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:22:08] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:22:08] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:22:19] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:22:19] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:22:19] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:22:19] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:22:19] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:22:19] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:22:19] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:22:20] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:22:20] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:22:20] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:22:21] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:23:34] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Firefox Tests
+[2025-09-17 17:23:43] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Chrome Tests
+[2025-09-17 17:23:44] INFO  ramchavantestautomation.Utils.Log - === Browser closed ===
+[2025-09-17 17:28:03] INFO  ramchavantestautomation.Utils.Log - Old screenshots cleaned from: D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation/screenshots/
+[2025-09-17 17:28:10] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-17 17:28:10] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Firefox Tests
+[2025-09-17 17:28:10] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Chrome Tests
+[2025-09-17 17:28:12] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:28:12] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:28:12] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:28:12] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:28:12] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:28:12] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:28:12] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:28:12] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:28:12] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:28:12] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:28:13] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:28:13] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:28:14] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:28:14] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:28:14] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:28:14] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:29:26] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:29:26] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:29:26] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:29:26] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:29:26] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:29:37] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:29:37] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:29:37] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:29:37] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:29:37] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:29:37] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:29:37] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:29:38] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:29:38] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:29:39] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:29:39] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:30:52] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Firefox Tests
+[2025-09-17 17:31:01] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Chrome Tests
+[2025-09-17 17:31:01] INFO  ramchavantestautomation.Utils.Log - === Browser closed ===
+[2025-09-17 17:36:24] INFO  ramchavantestautomation.Utils.Log - Old screenshots cleaned from: D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation/screenshots/
+[2025-09-17 17:36:31] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-17 17:36:31] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Firefox Tests
+[2025-09-17 17:36:31] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Chrome Tests
+[2025-09-17 17:36:32] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:36:32] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:36:32] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:36:32] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:36:33] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:36:33] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:36:33] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:36:33] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:36:33] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:36:33] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:36:34] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:36:34] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:36:35] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:36:35] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:36:36] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:36:36] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:37:48] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:37:48] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:37:48] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:37:48] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:37:48] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:37:58] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:37:58] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:37:58] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:37:58] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:37:58] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:37:59] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:37:59] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:37:59] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:37:59] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:38:00] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:38:00] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:39:13] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Chrome Tests
+[2025-09-17 17:39:22] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Firefox Tests
+[2025-09-17 17:39:22] INFO  ramchavantestautomation.Utils.Log - === Browser closed ===
+[2025-09-17 17:48:46] INFO  ramchavantestautomation.Utils.Log - Old screenshots cleaned from: D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation/screenshots/
+[2025-09-17 17:48:57] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-17 17:48:57] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Chrome Tests
+[2025-09-17 17:48:57] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Firefox Tests
+[2025-09-17 17:48:59] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:48:59] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:48:59] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:48:59] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:48:59] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:48:59] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:48:59] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:48:59] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:48:59] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:48:59] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:49:00] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:49:00] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:49:01] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:49:01] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:49:01] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:49:01] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:50:13] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:50:13] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:50:13] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:50:13] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:50:13] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:50:13] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:50:13] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:50:23] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:50:23] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:50:23] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:50:23] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:50:23] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:50:23] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:50:23] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:50:23] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:50:23] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:50:24] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:50:24] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:50:24] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:50:25] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:51:36] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:51:36] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:51:36] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:51:36] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:51:36] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:51:36] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:51:36] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:51:47] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:51:47] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:51:47] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:51:47] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:51:47] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:51:47] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 17:51:47] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 17:51:47] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:51:48] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 17:51:48] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:51:48] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 17:51:49] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:51:49] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:53:01] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsAbleToLoginWithValidCredentials - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='btn btn-custom'][contains(., 'Sign Out')]' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-17 17:53:01] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:53:01] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 17:53:01] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:53:01] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 17:53:01] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 17:53:01] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2025-09-17 17:53:11] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsAbleToLoginWithValidCredentials - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='btn btn-custom'][contains(., 'Sign Out')]' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-17 17:53:11] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 17:53:12] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 17:53:12] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:53:12] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 17:53:12] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 17:53:12] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2025-09-17 17:53:12] INFO  ramchavantestautomation.Utils.Log - Entered username: bad1@gmail.com
+[2025-09-17 17:53:12] INFO  ramchavantestautomation.Utils.Log - Entered username: bad1@gmail.com
+[2025-09-17 17:53:13] INFO  ramchavantestautomation.Utils.Log - Entered password: 123
+[2025-09-17 17:53:13] INFO  ramchavantestautomation.Utils.Log - Entered password: 123
+[2025-09-17 17:53:13] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:53:33] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 17:53:33] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 17:53:33] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 17:53:33] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 17:53:33] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:53:33] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 17:53:33] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 17:53:33] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[2025-09-17 17:53:34] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:53:54] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 17:53:54] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 17:53:54] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 17:53:54] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 17:53:54] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 17:53:54] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 17:53:54] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 17:53:54] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[2025-09-17 17:53:54] INFO  ramchavantestautomation.Utils.Log - Entered username: bad2@gmail.com
+[2025-09-17 17:53:55] INFO  ramchavantestautomation.Utils.Log - Entered username: bad2@gmail.com
+[2025-09-17 17:53:55] INFO  ramchavantestautomation.Utils.Log - Entered password: short
+[2025-09-17 17:53:55] INFO  ramchavantestautomation.Utils.Log - Entered password: short
+[2025-09-17 17:53:55] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:54:16] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 17:54:16] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 17:54:16] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 17:54:16] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-17 17:54:16] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 17:54:36] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 17:54:36] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 17:54:36] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 17:54:36] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-17 17:54:38] INFO  ramchavantestautomation.Utils.Log - Default login attempted.
+[2025-09-17 17:54:38] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-17 17:54:38] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-17 17:54:38] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-17 17:54:39] WARN  ramchavantestautomation.Utils.Log - Default login failed or skipped: stale element reference: stale element not found in the current frame
+  (Session info: chrome=125.0.6422.76)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [d32ae5234a176b9d6ea9e7503570d74f, sendKeysToElement {value=[Ljava.lang.CharSequence;@2bce323a, id=f.25C5EEDCEDAFA1269B8A36B1B8D80165.d.C0FCEECF631BFB8BA0E0B04DCB1FF477.e.2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.76, chrome: {chromedriverVersion: 125.0.6422.76 (67dcf7562b8f..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42593}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.4:4444/sessio..., se:cdpVersion: 125.0.6422.76, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (d32ae5234a176b9d6ea9e7503570d74f)] -> id: userPassword]
+Session ID: d32ae5234a176b9d6ea9e7503570d74f
+[2025-09-17 17:54:39] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-17 17:54:39] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-17 17:54:39] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-17 17:54:39] INFO  ramchavantestautomation.Utils.Log - Default logout attempted.
+[2025-09-17 17:54:40] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Chrome Tests
+[2025-09-17 17:55:00] WARN  ramchavantestautomation.Utils.Log - Default logout failed or skipped: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='btn btn-custom'][contains(., 'Sign Out')]' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-17 17:55:00] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Firefox Tests
+[2025-09-17 17:55:01] INFO  ramchavantestautomation.Utils.Log - === Browser closed ===
+[2025-09-17 18:07:43] INFO  ramchavantestautomation.Utils.Log - Old screenshots cleaned from: D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation/screenshots/
+[2025-09-17 18:07:52] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-17 18:07:52] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Chrome Tests
+[2025-09-17 18:07:52] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Firefox Tests
+[2025-09-17 18:07:54] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:07:54] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:07:54] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 18:07:54] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 18:07:54] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:07:54] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:07:54] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 18:07:54] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 18:07:54] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 18:07:54] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 18:07:55] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 18:07:55] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 18:07:56] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 18:07:56] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 18:07:56] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 18:07:57] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 18:09:07] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:09:07] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:09:07] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:09:07] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 18:09:07] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:09:07] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 18:09:07] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 18:09:17] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:09:17] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:09:17] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:09:17] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 18:09:17] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:09:17] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 18:09:17] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 18:09:17] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 18:09:18] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 18:09:18] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 18:09:18] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 18:09:19] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 18:09:19] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 18:10:30] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:10:30] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:10:30] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:10:30] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 18:10:30] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:10:30] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 18:10:30] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 18:10:40] WARN  ramchavantestautomation.Utils.Log - Test skipped: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:10:40] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:10:40] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:10:40] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 18:10:40] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:10:40] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 18:10:40] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 18:10:41] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 18:10:41] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 18:10:42] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 18:10:42] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 18:10:42] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 18:10:43] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 18:11:55] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsAbleToLoginWithValidCredentials - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='btn btn-custom'][contains(., 'Sign Out')]' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-17 18:11:55] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:11:55] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:11:55] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 18:11:55] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:11:55] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 18:11:55] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2025-09-17 18:12:05] ERROR ramchavantestautomation.Utils.Log - Test failed: verifyThatUserIsAbleToLoginWithValidCredentials - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='btn btn-custom'][contains(., 'Sign Out')]' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-17 18:12:05] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:12:05] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:12:05] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 18:12:05] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:12:05] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 18:12:05] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2025-09-17 18:12:06] INFO  ramchavantestautomation.Utils.Log - Entered username: bad1@gmail.com
+[2025-09-17 18:12:06] INFO  ramchavantestautomation.Utils.Log - Entered username: bad1@gmail.com
+[2025-09-17 18:12:06] INFO  ramchavantestautomation.Utils.Log - Entered password: 123
+[2025-09-17 18:12:06] INFO  ramchavantestautomation.Utils.Log - Entered password: 123
+[2025-09-17 18:12:07] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 18:12:17] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 18:12:27] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 18:12:27] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:12:27] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:12:27] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:12:27] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 18:12:27] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:12:27] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 18:12:27] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[2025-09-17 18:12:48] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 18:12:48] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:12:48] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:12:48] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:12:48] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 18:12:48] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:12:48] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 18:12:48] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[2025-09-17 18:12:48] INFO  ramchavantestautomation.Utils.Log - Entered username: bad2@gmail.com
+[2025-09-17 18:12:48] INFO  ramchavantestautomation.Utils.Log - Entered username: bad2@gmail.com
+[2025-09-17 18:12:49] INFO  ramchavantestautomation.Utils.Log - Entered password: short
+[2025-09-17 18:12:49] INFO  ramchavantestautomation.Utils.Log - Entered password: short
+[2025-09-17 18:12:49] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 18:13:09] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 18:13:09] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:13:09] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:13:09] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-17 18:13:10] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 18:13:30] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 18:13:30] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:13:30] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:13:30] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-17 18:13:31] INFO  ramchavantestautomation.Utils.Log - Default login attempted.
+[2025-09-17 18:13:31] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-17 18:13:31] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-17 18:13:31] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-17 18:13:32] WARN  ramchavantestautomation.Utils.Log - Default login failed or skipped: stale element reference: stale element not found in the current frame
+  (Session info: chrome=125.0.6422.76)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [0497bf56e52f93b88309728e91904dec, sendKeysToElement {id=f.27724AF701D44295B971684430A77974.d.D478FF92FAFB149253E0EC48109994C1.e.2, value=[Ljava.lang.CharSequence;@2bcaad73}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.76, chrome: {chromedriverVersion: 125.0.6422.76 (67dcf7562b8f..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.4:4444/sessio..., se:cdpVersion: 125.0.6422.76, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (0497bf56e52f93b88309728e91904dec)] -> id: userPassword]
+Session ID: 0497bf56e52f93b88309728e91904dec
+[2025-09-17 18:13:32] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-17 18:13:32] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-17 18:13:32] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-17 18:13:32] INFO  ramchavantestautomation.Utils.Log - Default logout attempted.
+[2025-09-17 18:13:32] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Chrome Tests
+[2025-09-17 18:13:53] WARN  ramchavantestautomation.Utils.Log - Default logout failed or skipped: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='btn btn-custom'][contains(., 'Sign Out')]' (tried for 10 second(s) with 500 milliseconds interval)
+[2025-09-17 18:13:53] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Firefox Tests
+[2025-09-17 18:13:53] INFO  ramchavantestautomation.Utils.Log - === Browser closed ===
+[2025-09-17 18:19:56] INFO  ramchavantestautomation.Utils.Log - Old screenshots cleaned from: D:\Automation_Ecommerce_WebSite\Ecommerce_WebAutomation/screenshots/
+[2025-09-17 18:20:04] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-17 18:20:04] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Chrome Tests
+[2025-09-17 18:20:05] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:20:05] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 18:20:06] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:20:06] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 18:20:06] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 18:20:07] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 18:20:07] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 18:20:07] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 18:20:08] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[2025-09-17 18:20:08] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-17 18:20:08] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:20:08] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:20:08] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:20:08] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 18:20:08] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:20:08] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 18:20:08] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2025-09-17 18:20:09] INFO  ramchavantestautomation.Utils.Log - Entered username: bad1@gmail.com
+[2025-09-17 18:20:10] INFO  ramchavantestautomation.Utils.Log - Entered password: 123
+[2025-09-17 18:20:10] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 18:20:11] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 18:20:11] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:20:11] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:20:11] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:20:11] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 18:20:11] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:20:11] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 18:20:11] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[2025-09-17 18:20:11] INFO  ramchavantestautomation.Utils.Log - Entered username: bad2@gmail.com
+[2025-09-17 18:20:12] INFO  ramchavantestautomation.Utils.Log - Entered password: short
+[2025-09-17 18:20:13] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 18:20:33] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 18:20:33] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:20:33] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:20:33] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-17 18:20:34] INFO  ramchavantestautomation.Utils.Log - Default login attempted.
+[2025-09-17 18:20:34] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-17 18:20:34] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-17 18:20:34] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-17 18:20:34] INFO  ramchavantestautomation.Utils.Log - Default logout attempted.
+[2025-09-17 18:20:35] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Chrome Tests
+[2025-09-17 18:20:35] INFO  ramchavantestautomation.Utils.Log - === Browser closed ===
+[2025-09-17 18:32:25] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Chrome Tests
+[2025-09-17 18:32:28] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-17 18:32:28] INFO  ramchavantestautomation.Utils.Log - Driver hash: 521051657 Thread: 29
+[2025-09-17 18:32:30] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:32:30] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 18:32:30] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:32:30] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 18:32:30] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 18:32:30] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 18:32:31] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 18:32:31] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 18:32:31] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[2025-09-17 18:32:32] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-17 18:32:32] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:32:32] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 18:32:32] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:32:32] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 18:32:32] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:32:32] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 18:32:32] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2025-09-17 18:32:33] INFO  ramchavantestautomation.Utils.Log - Entered username: bad1@gmail.com
+[2025-09-17 18:32:33] INFO  ramchavantestautomation.Utils.Log - Entered password: 123
+[2025-09-17 18:32:33] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 18:32:33] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 18:32:34] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:32:34] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:32:34] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:32:34] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 18:32:34] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:32:34] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 18:32:34] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[2025-09-17 18:32:34] INFO  ramchavantestautomation.Utils.Log - Entered username: bad2@gmail.com
+[2025-09-17 18:32:34] INFO  ramchavantestautomation.Utils.Log - Entered password: short
+[2025-09-17 18:32:35] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 18:32:55] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 18:32:56] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:32:56] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 18:32:56] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-17 18:32:57] INFO  ramchavantestautomation.Utils.Log - Default login attempted.
+[2025-09-17 18:32:57] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-17 18:32:57] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-17 18:32:57] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-17 18:32:57] INFO  ramchavantestautomation.Utils.Log - Default logout attempted.
+[2025-09-17 18:32:57] INFO  ramchavantestautomation.Utils.Log - === Browser closed for thread 29 ===
+[2025-09-17 18:32:58] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Chrome Tests
+[2025-09-17 19:33:46] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Chrome Tests
+[2025-09-17 19:34:00] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-17 19:34:00] INFO  ramchavantestautomation.Utils.Log - Driver hash: 690847086 Thread: 29
+[2025-09-17 19:34:02] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 19:34:02] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 19:34:02] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 19:34:02] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 19:34:02] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 19:34:03] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 19:34:04] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 19:34:04] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 19:34:05] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[2025-09-17 19:34:06] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-17 19:34:07] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 19:34:07] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 19:34:07] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:34:07] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 19:34:07] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:34:07] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 19:34:07] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2025-09-17 19:34:08] INFO  ramchavantestautomation.Utils.Log - Entered username: bad1@gmail.com
+[2025-09-17 19:34:09] INFO  ramchavantestautomation.Utils.Log - Entered password: 123
+[2025-09-17 19:34:09] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 19:34:10] INFO  ramchavantestautomation.Utils.Log - Error displayed: true
+[2025-09-17 19:34:10] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 19:34:10] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:34:10] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:34:10] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:34:10] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 19:34:10] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:34:10] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 19:34:10] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[2025-09-17 19:34:11] INFO  ramchavantestautomation.Utils.Log - Entered username: bad2@gmail.com
+[2025-09-17 19:34:11] INFO  ramchavantestautomation.Utils.Log - Entered password: short
+[2025-09-17 19:34:12] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 19:34:12] INFO  ramchavantestautomation.Utils.Log - Error displayed: true
+[2025-09-17 19:34:12] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 19:34:13] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:34:13] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:34:13] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-17 19:34:15] INFO  ramchavantestautomation.Utils.Log - Default login attempted.
+[2025-09-17 19:34:15] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-17 19:34:15] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-17 19:34:15] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-17 19:34:16] INFO  ramchavantestautomation.Utils.Log - Default logout attempted.
+[2025-09-17 19:34:16] INFO  ramchavantestautomation.Utils.Log - === Browser closed for thread 29 ===
+[2025-09-17 19:34:16] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Chrome Tests
+[2025-09-17 19:36:49] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Chrome Tests
+[2025-09-17 19:36:49] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Firefox Tests
+[2025-09-17 19:36:57] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-17 19:36:57] INFO  ramchavantestautomation.Utils.Log - Driver hash: 214463957 Thread: 29
+[2025-09-17 19:36:59] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 19:36:59] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 19:37:00] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 19:37:00] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 19:37:00] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 19:37:01] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 19:37:03] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 19:37:05] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 19:37:07] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[2025-09-17 19:37:09] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-17 19:37:11] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 19:37:11] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 19:37:11] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:37:11] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 19:37:11] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:37:11] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 19:37:11] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2025-09-17 19:37:12] INFO  ramchavantestautomation.Utils.Log - Entered username: bad1@gmail.com
+[2025-09-17 19:37:13] INFO  ramchavantestautomation.Utils.Log - Entered password: 123
+[2025-09-17 19:37:14] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 19:37:14] INFO  ramchavantestautomation.Utils.Log - Error displayed: true
+[2025-09-17 19:37:14] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 19:37:16] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:37:16] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:37:16] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:37:16] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 19:37:16] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:37:16] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 19:37:16] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[2025-09-17 19:37:16] INFO  ramchavantestautomation.Utils.Log - Browser launched (firefox) & navigated to: https://rahulshettyacademy.com/client/
+[2025-09-17 19:37:16] INFO  ramchavantestautomation.Utils.Log - Driver hash: 2138127423 Thread: 30
+[2025-09-17 19:37:16] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 19:37:16] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 19:37:16] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 19:37:16] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2025-09-17 19:37:16] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2025-09-17 19:37:17] INFO  ramchavantestautomation.Utils.Log - Entered username: bad2@gmail.com
+[2025-09-17 19:37:17] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2025-09-17 19:37:17] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2025-09-17 19:37:18] INFO  ramchavantestautomation.Utils.Log - Entered password: short
+[2025-09-17 19:37:18] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 19:37:18] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 19:37:18] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[2025-09-17 19:37:19] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2025-09-17 19:37:20] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 19:37:20] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsAbleToLoginWithValidCredentials
+[2025-09-17 19:37:20] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:37:20] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 19:37:20] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:37:20] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 19:37:20] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2025-09-17 19:37:20] INFO  ramchavantestautomation.Utils.Log - Error displayed: true
+[2025-09-17 19:37:20] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 19:37:20] INFO  ramchavantestautomation.Utils.Log - Entered username: bad1@gmail.com
+[2025-09-17 19:37:20] INFO  ramchavantestautomation.Utils.Log - Entered password: 123
+[2025-09-17 19:37:21] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:37:21] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:37:21] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-17 19:37:21] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 19:37:21] INFO  ramchavantestautomation.Utils.Log - Error displayed: true
+[2025-09-17 19:37:21] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 19:37:22] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:37:22] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:37:22] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:37:22] INFO  ramchavantestautomation.Utils.Log - Skipping default login for a login test.
+[2025-09-17 19:37:22] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:37:22] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2025-09-17 19:37:22] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[2025-09-17 19:37:22] INFO  ramchavantestautomation.Utils.Log - Entered username: bad2@gmail.com
+[2025-09-17 19:37:22] INFO  ramchavantestautomation.Utils.Log - Default login attempted.
+[2025-09-17 19:37:22] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-17 19:37:22] INFO  ramchavantestautomation.Utils.Log - Entered password: short
+[2025-09-17 19:37:23] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2025-09-17 19:37:23] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-17 19:37:23] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-17 19:37:23] INFO  ramchavantestautomation.Utils.Log - Error displayed: true
+[2025-09-17 19:37:23] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2025-09-17 19:37:23] INFO  ramchavantestautomation.Utils.Log - Default logout attempted.
+[2025-09-17 19:37:24] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:37:24] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2025-09-17 19:37:24] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: alwaysPass
+[2025-09-17 19:37:24] INFO  ramchavantestautomation.Utils.Log - === Browser closed for thread 29 ===
+[2025-09-17 19:37:25] INFO  ramchavantestautomation.Utils.Log - Default login attempted.
+[2025-09-17 19:37:25] INFO  ramchavantestautomation.Utils.Log - Test started: alwaysPass
+[2025-09-17 19:37:25] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Chrome Tests
+[2025-09-17 19:37:26] INFO  ramchavantestautomation.Utils.Log - Test passed: alwaysPass
+[2025-09-17 19:37:26] INFO  ramchavantestautomation.Utils.Log - <<< Finished test: alwaysPass
+[2025-09-17 19:37:27] INFO  ramchavantestautomation.Utils.Log - Default logout attempted.
+[2025-09-17 19:37:28] INFO  ramchavantestautomation.Utils.Log - === Browser closed for thread 30 ===
+[2025-09-17 19:37:28] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Firefox Tests

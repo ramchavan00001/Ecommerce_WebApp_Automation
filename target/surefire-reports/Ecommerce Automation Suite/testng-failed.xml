@@ -9,11 +9,12 @@
     <classes>
       <class name="ramchavantestautomation.Tests.LoginPageTest">
         <methods>
+          <include name="endTest"/>
+          <include name="setupLoginPage"/>
           <include name="setUpSuite"/>
-          <include name="validLoginTest" invocation-numbers="0 1"/>
           <include name="startTest"/>
           <include name="tearDownSuite"/>
-          <include name="captureResult"/>
+          <include name="verifyThatUserIsAbleToLoginWithValidCredentials" invocation-numbers="0"/>
         </methods>
       </class> <!-- ramchavantestautomation.Tests.LoginPageTest -->
     </classes>
@@ -23,11 +24,12 @@
     <classes>
       <class name="ramchavantestautomation.Tests.LoginPageTest">
         <methods>
+          <include name="endTest"/>
+          <include name="setupLoginPage"/>
           <include name="setUpSuite"/>
-          <include name="validLoginTest" invocation-numbers="0 1"/>
           <include name="startTest"/>
           <include name="tearDownSuite"/>
-          <include name="captureResult"/>
+          <include name="verifyThatUserIsAbleToLoginWithValidCredentials" invocation-numbers="0"/>
         </methods>
       </class> <!-- ramchavantestautomation.Tests.LoginPageTest -->
     </classes>

@@ -66,6 +66,7 @@ public class WebAction extends DriverFactory {
             return null;
         }
     }
+    
     public void scrollToElement(WebElement element) {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
     }

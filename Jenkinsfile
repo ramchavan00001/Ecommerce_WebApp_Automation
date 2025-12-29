@@ -1,10 +1,7 @@
 pipeline {
     agent any
 
-    tools {
-        jdk 'JDK11'
-        maven 'Maven3'
-    }
+   
 
     triggers {
         cron('H 1 * * *')   // Runs every night ~1 AM

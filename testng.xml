@@ -20,6 +20,14 @@
           <!--   <class name="ramchavantestautomation.Tests.SampleUnitTest"/>-->
         </classes>
     </test>
+    
+    <test name="Edge Tests">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="ramchavantestautomation.Tests.LoginPageTest"/>
+          <!--   <class name="ramchavantestautomation.Tests.SampleUnitTest"/>-->
+        </classes>
+    </test>
      
 
 </suite>

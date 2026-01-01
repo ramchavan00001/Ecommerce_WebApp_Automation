@@ -1593,3 +1593,123 @@ Session ID: 0497bf56e52f93b88309728e91904dec
 [2026-01-01 20:03:42] INFO  ramchavantestautomation.Utils.Log - Skipping logout for login test
 [2026-01-01 20:03:42] INFO  ramchavantestautomation.Utils.Log - Browser closed for thread 27
 [2026-01-01 20:03:42] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Chrome Tests
+[2026-01-01 22:37:48] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Chrome Tests
+[2026-01-01 22:37:48] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Firefox Tests
+[2026-01-01 22:37:59] INFO  ramchavantestautomation.Utils.Log - Browser launched (chrome) & navigated to base URL
+[2026-01-01 22:38:01] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials | Browser: chrome
+[2026-01-01 22:38:01] INFO  ramchavantestautomation.Utils.Log - Skipping login for login-related test
+[2026-01-01 22:38:01] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2026-01-01 22:38:01] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2026-01-01 22:38:01] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2026-01-01 22:38:04] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2026-01-01 22:38:04] INFO  ramchavantestautomation.Utils.Log - Browser launched (firefox) & navigated to base URL
+[2026-01-01 22:38:04] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials | Browser: firefox
+[2026-01-01 22:38:04] INFO  ramchavantestautomation.Utils.Log - Skipping login for login-related test
+[2026-01-01 22:38:04] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2026-01-01 22:38:04] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2026-01-01 22:38:04] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2026-01-01 22:38:06] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2026-01-01 22:38:06] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2026-01-01 22:38:07] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2026-01-01 22:38:07] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2026-01-01 22:38:07] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2026-01-01 22:38:08] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[2026-01-01 22:38:08] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[2026-01-01 22:38:09] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2026-01-01 22:38:09] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2026-01-01 22:38:10] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2026-01-01 22:38:10] INFO  ramchavantestautomation.Utils.Log - Skipping logout for login test
+[2026-01-01 22:38:10] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2026-01-01 22:38:10] INFO  ramchavantestautomation.Utils.Log - Skipping logout for login test
+[2026-01-01 22:38:10] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials | Browser: firefox
+[2026-01-01 22:38:10] INFO  ramchavantestautomation.Utils.Log - Skipping login for login-related test
+[2026-01-01 22:38:10] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2026-01-01 22:38:10] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2026-01-01 22:38:10] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2026-01-01 22:38:10] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials | Browser: chrome
+[2026-01-01 22:38:10] INFO  ramchavantestautomation.Utils.Log - Skipping login for login-related test
+[2026-01-01 22:38:10] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2026-01-01 22:38:10] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2026-01-01 22:38:10] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2026-01-01 22:38:11] INFO  ramchavantestautomation.Utils.Log - Entered username: bad1@gmail.com
+[2026-01-01 22:38:11] INFO  ramchavantestautomation.Utils.Log - Entered password: 123
+[2026-01-01 22:38:11] INFO  ramchavantestautomation.Utils.Log - Entered username: bad1@gmail.com
+[2026-01-01 22:38:12] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2026-01-01 22:38:12] INFO  ramchavantestautomation.Utils.Log - Error displayed: true
+[2026-01-01 22:38:12] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2026-01-01 22:38:12] INFO  ramchavantestautomation.Utils.Log - Entered password: 123
+[2026-01-01 22:38:12] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2026-01-01 22:38:12] INFO  ramchavantestautomation.Utils.Log - Skipping logout for login test
+[2026-01-01 22:38:12] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials | Browser: firefox
+[2026-01-01 22:38:12] INFO  ramchavantestautomation.Utils.Log - Skipping login for login-related test
+[2026-01-01 22:38:12] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2026-01-01 22:38:12] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2026-01-01 22:38:12] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[2026-01-01 22:38:13] INFO  ramchavantestautomation.Utils.Log - Entered username: bad2@gmail.com
+[2026-01-01 22:38:13] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2026-01-01 22:38:13] INFO  ramchavantestautomation.Utils.Log - Entered password: short
+[2026-01-01 22:38:14] INFO  ramchavantestautomation.Utils.Log - Error displayed: true
+[2026-01-01 22:38:14] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2026-01-01 22:38:14] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2026-01-01 22:38:14] INFO  ramchavantestautomation.Utils.Log - Error displayed: true
+[2026-01-01 22:38:14] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2026-01-01 22:38:14] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2026-01-01 22:38:14] INFO  ramchavantestautomation.Utils.Log - Skipping logout for login test
+[2026-01-01 22:38:14] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials | Browser: chrome
+[2026-01-01 22:38:14] INFO  ramchavantestautomation.Utils.Log - Skipping login for login-related test
+[2026-01-01 22:38:14] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2026-01-01 22:38:14] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2026-01-01 22:38:14] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[2026-01-01 22:38:15] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2026-01-01 22:38:15] INFO  ramchavantestautomation.Utils.Log - Skipping logout for login test
+[2026-01-01 22:38:15] INFO  ramchavantestautomation.Utils.Log - Entered username: bad2@gmail.com
+[2026-01-01 22:38:15] INFO  ramchavantestautomation.Utils.Log - Entered password: short
+[2026-01-01 22:38:16] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2026-01-01 22:38:16] INFO  ramchavantestautomation.Utils.Log - Error displayed: true
+[2026-01-01 22:38:16] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2026-01-01 22:38:16] INFO  ramchavantestautomation.Utils.Log - Browser closed for thread 27
+[2026-01-01 22:38:16] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Firefox Tests
+[2026-01-01 22:38:16] INFO  ramchavantestautomation.Utils.Log - >>> Test suite started: Edge Tests
+[2026-01-01 22:38:17] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2026-01-01 22:38:17] INFO  ramchavantestautomation.Utils.Log - Skipping logout for login test
+[2026-01-01 22:38:17] INFO  ramchavantestautomation.Utils.Log - Browser closed for thread 26
+[2026-01-01 22:38:17] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Chrome Tests
+[2026-01-01 22:38:22] INFO  ramchavantestautomation.Utils.Log - Browser launched (edge) & navigated to base URL
+[2026-01-01 22:38:22] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsAbleToLoginWithValidCredentials | Browser: edge
+[2026-01-01 22:38:22] INFO  ramchavantestautomation.Utils.Log - Skipping login for login-related test
+[2026-01-01 22:38:22] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsAbleToLoginWithValidCredentials
+[2026-01-01 22:38:22] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST START=========================================
+[2026-01-01 22:38:22] INFO  ramchavantestautomation.Utils.Log - Testing login with data provider: testautomationram@gmail.com / Test@1234
+[2026-01-01 22:38:22] INFO  ramchavantestautomation.Utils.Log - Entered username: testautomationram@gmail.com
+[2026-01-01 22:38:22] INFO  ramchavantestautomation.Utils.Log - Entered password: Test@1234
+[2026-01-01 22:38:23] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2026-01-01 22:38:23] INFO  ramchavantestautomation.Utils.Log - Fetched Homepage text after successfull login: AUTOMATION
+[2026-01-01 22:38:23] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsAbleToLoginWithValidCredentialsTest TEST END=========================================
+[2026-01-01 22:38:24] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsAbleToLoginWithValidCredentials
+[2026-01-01 22:38:24] INFO  ramchavantestautomation.Utils.Log - Skipping logout for login test
+[2026-01-01 22:38:24] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials | Browser: edge
+[2026-01-01 22:38:24] INFO  ramchavantestautomation.Utils.Log - Skipping login for login-related test
+[2026-01-01 22:38:24] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2026-01-01 22:38:24] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2026-01-01 22:38:24] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad1@gmail.com / 123
+[2026-01-01 22:38:24] INFO  ramchavantestautomation.Utils.Log - Entered username: bad1@gmail.com
+[2026-01-01 22:38:25] INFO  ramchavantestautomation.Utils.Log - Entered password: 123
+[2026-01-01 22:38:25] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2026-01-01 22:38:25] INFO  ramchavantestautomation.Utils.Log - Error displayed: true
+[2026-01-01 22:38:25] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2026-01-01 22:38:26] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2026-01-01 22:38:26] INFO  ramchavantestautomation.Utils.Log - Skipping logout for login test
+[2026-01-01 22:38:26] INFO  ramchavantestautomation.Utils.Log - >>> Starting test: verifyThatUserIsNotAbleToLoginWithInValidCredentials | Browser: edge
+[2026-01-01 22:38:26] INFO  ramchavantestautomation.Utils.Log - Skipping login for login-related test
+[2026-01-01 22:38:26] INFO  ramchavantestautomation.Utils.Log - Test started: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2026-01-01 22:38:26] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST START=========================================
+[2026-01-01 22:38:26] INFO  ramchavantestautomation.Utils.Log - Testing invalid login with: bad2@gmail.com / short
+[2026-01-01 22:38:26] INFO  ramchavantestautomation.Utils.Log - Entered username: bad2@gmail.com
+[2026-01-01 22:38:27] INFO  ramchavantestautomation.Utils.Log - Entered password: short
+[2026-01-01 22:38:27] INFO  ramchavantestautomation.Utils.Log - Clicked on login button
+[2026-01-01 22:38:28] INFO  ramchavantestautomation.Utils.Log - Error displayed: true
+[2026-01-01 22:38:28] INFO  ramchavantestautomation.Utils.Log - =====================================verifyThatUserIsNotAbleToLoginWithInValidCredentialsTest TEST END=========================================
+[2026-01-01 22:38:28] INFO  ramchavantestautomation.Utils.Log - Test passed: verifyThatUserIsNotAbleToLoginWithInValidCredentials
+[2026-01-01 22:38:28] INFO  ramchavantestautomation.Utils.Log - Skipping logout for login test
+[2026-01-01 22:38:29] INFO  ramchavantestautomation.Utils.Log - Browser closed for thread 27
+[2026-01-01 22:38:29] INFO  ramchavantestautomation.Utils.Log - <<< Test suite finished: Edge Tests

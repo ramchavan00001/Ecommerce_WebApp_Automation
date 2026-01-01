@@ -34,8 +34,24 @@ public class HomePage extends BasePage {
 		return homePagetext.getText();
 	}
 	
-	public void logout() {
-		action.waitForElementToBeClickable(signOut, 10);
-		signOut.click();
+//	public void logout() {
+//		action.waitForElementToBeClickable(signOut, 10);
+//		signOut.click();
+//	}
+	
+	public boolean isLogoutVisible() {
+	    try {
+	        return signOut.isDisplayed();
+	    } catch (Exception e) {
+	        return false;
+	    }
 	}
+
+	public void logout() {
+	    if (isLogoutVisible()) {
+	        action.waitForElementToBeClickable(signOut, 10);
+	        signOut.click();
+	    }
+	}
+
 }

@@ -2,6 +2,7 @@ package ramchavantestautomation.Tests;
 
 import ramchavantestautomation.Base.DriverFactory;
 import ramchavantestautomation.Pages.LoginPage;
+import ramchavantestautomation.Pages.HomePage;
 import ramchavantestautomation.Utils.ConfigReader;
 import ramchavantestautomation.Utils.Log;
 import ramchavantestautomation.Utils.ExtentTestManager;
@@ -11,7 +12,6 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.annotations.*;
 
-import java.io.File;
 import java.lang.reflect.Method;
 
 @Listeners(ramchavantestautomation.Base.TestListener.class)
@@ -20,9 +20,8 @@ public class BaseTest {
     protected WebDriver driver;
     protected WebAction action;
 
-    private final String LOGIN_KEYWORD = "Credentials";
+    private static final String LOGIN_KEYWORD = "Credentials";
 
-    // ✅ Browser stored per thread
     private static ThreadLocal<String> browserTL = new ThreadLocal<>();
 
     protected String getBrowser() {
@@ -38,32 +37,30 @@ public class BaseTest {
                 ? ConfigReader.get("browser")
                 : browserFromXml;
 
-        browserTL.set(browser); // ✅ store browser safely
+        browserTL.set(browser);
 
         DriverFactory.initDriver(browser);
         driver = DriverFactory.getDriver();
 
         driver.get(ConfigReader.get("base.url"));
-        Log.info("Browser launched (" + browser + ") & navigated to: " + ConfigReader.get("base.url"));
+        Log.info("Browser launched (" + browser + ") & navigated to base URL");
 
         action = new WebAction(driver);
         context.setAttribute("driver", driver);
 
-        // Parent Extent test per browser
         ExtentTestManager.startParentTest(
                 context.getCurrentXmlTest().getName() + " [" + browser + "]"
         );
-        Log.info("Parent ExtentTest created for browser: " + browser);
     }
 
     // ================= BEFORE METHOD =================
     @BeforeMethod(alwaysRun = true)
-    public void startTest(Method method) {
+    public void beforeMethod(Method method) {
 
         String browser = getBrowser();
 
         ExtentTestManager.startTest(method.getName());
-        Log.info(">>> Starting test: " + method.getName() + " on browser: " + browser);
+        Log.info(">>> Starting test: " + method.getName() + " | Browser: " + browser);
 
         boolean isLoginTest = method.getName().contains(LOGIN_KEYWORD);
 
@@ -75,34 +72,44 @@ public class BaseTest {
                         ConfigReader.get("default.password")
                 );
 
-                Log.info("Default login attempted.");
-                ExtentTestManager.getTest().info(
-                        "Default login attempted on browser: " + browser
-                );
+                Log.info("Default login successful");
+                ExtentTestManager.getTest().info("User logged in");
 
             } catch (Exception e) {
-                Log.warn("Default login failed or skipped: " + e.getMessage());
-                ExtentTestManager.getTest().warning(
-                        "Default login failed/skipped on " + browser + ": " + e.getMessage()
-                );
+                Log.error("Login failed: " + e.getMessage());
+                throw e; // login failure should fail test
             }
         } else {
-            Log.info("Skipping default login for login test method.");
-            ExtentTestManager.getTest().info("Skipping login for login test method.");
+            Log.info("Skipping login for login-related test");
         }
     }
 
     // ================= AFTER METHOD =================
     @AfterMethod(alwaysRun = true)
-    public void endTest(Method method) {
+    public void afterMethod(Method method) {
 
         String browser = getBrowser();
+        boolean isLoginTest = method.getName().contains(LOGIN_KEYWORD);
 
-        Log.info("<<< Finished test: " + method.getName() + " on browser: " + browser);
+        if (!isLoginTest) {
+            try {
+                HomePage homePage = new HomePage(driver);
+                homePage.logout();
+
+                Log.info("User logged out successfully");
+                ExtentTestManager.getTest().info("User logged out");
+
+            } catch (Exception e) {
+                Log.warn("Logout skipped or failed: " + e.getMessage());
+                ExtentTestManager.getTest().warning("Logout not performed");
+            }
+        } else {
+            Log.info("Skipping logout for login test");
+        }
+
         ExtentTestManager.getTest().pass(
-                "Test finished successfully on browser: " + browser
+                "Test finished on browser: " + browser
         );
-
         ExtentTestManager.endTest();
     }
 
@@ -110,21 +117,7 @@ public class BaseTest {
     @AfterTest(alwaysRun = true)
     public void tearDownTest() {
         DriverFactory.quitDriver();
-        browserTL.remove(); // ✅ clean ThreadLocal
-        Log.info("=== Browser closed for thread " + Thread.currentThread().getId() + " ===");
-    }
-
-    // ================= UTIL =================
-    private void cleanScreenshotsFolder() {
-        String screenshotDir = System.getProperty("user.dir") + "/reports/screenshots/";
-        File folder = new File(screenshotDir);
-        if (folder.exists() && folder.isDirectory()) {
-            for (File file : folder.listFiles()) {
-                if (file.isFile() && file.getName().endsWith(".png")) {
-                    file.delete();
-                }
-            }
-            Log.info("Old screenshots cleaned from: " + screenshotDir);
-        }
+        browserTL.remove();
+        Log.info("Browser closed for thread " + Thread.currentThread().getId());
     }
 }

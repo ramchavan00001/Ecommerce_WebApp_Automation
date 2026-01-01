@@ -1,7 +1,6 @@
 pipeline {
     agent any
 
-    // Schedule nightly run at ~1 AM
     triggers {
         cron('H 1 * * *')
     }
@@ -25,10 +24,8 @@ pipeline {
 
         stage('Publish Reports') {
             steps {
-                // Publish TestNG / Surefire XML reports
                 junit 'target\\surefire-reports\\*.xml'
 
-                // Publish Extent HTML Report from reports folder
                 publishHTML(target: [
                     reportDir: 'reports',
                     reportFiles: 'ExtentReport.html',
@@ -38,7 +35,6 @@ pipeline {
                     allowMissing: false
                 ])
 
-                // Archive reports, screenshots, logs
                 archiveArtifacts artifacts: 'reports\\**, target\\**', fingerprint: true
             }
         }
@@ -56,10 +52,10 @@ pipeline {
                 subject: "✅ Automation Passed | ${JOB_NAME} #${BUILD_NUMBER}",
                 body: """
                     <h2 style="color:green;">Nightly Automation Execution Successful</h2>
-                    <p><b>Job:</b> ${JOB_NAME</p>
+                    <p><b>Job:</b> ${JOB_NAME}</p>
                     <p><b>Build Number:</b> #${BUILD_NUMBER}</p>
                     <p><b>Extent Report:</b>
-                       <a href='${BUILD_URL}Extent_20Automation_20Report/'>View Report</a>
+                        <a href='${BUILD_URL}Extent_20Automation_20Report/'>View Report</a>
                     </p>
                 """,
                 to: 'ramchavan00001@gmail.com',
@@ -77,10 +73,10 @@ pipeline {
                     <p><b>Job:</b> ${JOB_NAME}</p>
                     <p><b>Build Number:</b> #${BUILD_NUMBER}</p>
                     <p><b>Console Logs:</b>
-                       <a href='${BUILD_URL}console'>View Logs</a>
+                        <a href='${BUILD_URL}console'>View Logs</a>
                     </p>
                     <p><b>Extent Report:</b>
-                       <a href='${BUILD_URL}Extent_20Automation_20Report/'>View Report</a>
+                        <a href='${BUILD_URL}Extent_20Automation_20Report/'>View Report</a>
                     </p>
                 """,
                 to: 'ramchavan00001@gmail.com',

@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Ecommerce_Automation_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Ecommerce Automation Suite</span>
+              <span class="suite-name border-skipped">Ecommerce Automation Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">10 methods,  1 skipped,  9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Ecommerce_Automation_Suite" class="hide-methods skipped suite-Ecommerce_Automation_Suite"> (hide)</a> <!-- hide-methods skipped suite-Ecommerce_Automation_Suite -->
+                      <a href="#" panel-name="suite-Ecommerce_Automation_Suite" class="show-methods skipped suite-Ecommerce_Automation_Suite"> (show)</a> <!-- show-methods skipped suite-Ecommerce_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Ecommerce_Automation_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_Automation_Suite" title="ramchavantestautomation.Tests.LoginPageTest" class="method navigator-link" hash-for-method="verifyThatUserIsAbleToLoginWithValidCredentials(testautomationram@gmail.com, Test@1234)">verifyThatUserIsAbleToLoginWithValidCredentials(testautomationram@gmail.com, Test@1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Ecommerce_Automation_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,11 +132,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Ecommerce_Automation_Suite" title="ramchavantestautomation.Tests.LoginPageTest" class="method navigator-link" hash-for-method="verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad2@gmail.com, short)">verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad2@gmail.com, short)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Ecommerce_Automation_Suite" title="ramchavantestautomation.Tests.LoginPageTest" class="method navigator-link" hash-for-method="verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad1@gmail.com, 123)">verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad1@gmail.com, 123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -144,6 +153,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Ecommerce_Automation_Suite" title="ramchavantestautomation.Tests.LoginPageTest" class="method navigator-link" hash-for-method="verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad1@gmail.com, 123)">verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad1@gmail.com, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_Automation_Suite" title="ramchavantestautomation.Tests.LoginPageTest" class="method navigator-link" hash-for-method="verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad2@gmail.com, short)">verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad2@gmail.com, short)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Ecommerce_Automation_Suite -->
@@ -158,6 +172,49 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Ecommerce_Automation_Suite" class="panel Ecommerce_Automation_Suite">
+          <div class="suite-Ecommerce_Automation_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">ramchavantestautomation.Tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatUserIsAbleToLoginWithValidCredentials(testautomationram@gmail.com, Test@1234)">
+                  </a> <!-- verifyThatUserIsAbleToLoginWithValidCredentials(testautomationram@gmail.com, Test@1234) -->
+                  <span class="method-name">verifyThatUserIsAbleToLoginWithValidCredentials</span>
+                  <span class="parameters">(testautomationram@gmail.com,Test@1234)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;btn btn-custom&quot;&gt; is not clickable at point (1238,26) because another element &lt;div class=&quot;ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating&quot;&gt; obscures it
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [d24e2d3d-5d76-4051-84b1-0a8258bdd97c, clickElement {id=80db138c-bb76-4fce-8c40-b6822b09606e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:debuggerAddress: 127.0.0.1:28120, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 6.6.87.2-microsoft-standard..., moz:processID: 4465, moz:profile: /tmp/rust_mozprofilehbByNC, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Element: [[RemoteWebDriver: firefox on linux (d24e2d3d-5d76-4051-84b1-0a8258bdd97c)] -&gt; xpath: //button[@class=&apos;btn btn-custom&apos;][contains(., &apos;Sign Out&apos;)]]
+Session ID: d24e2d3d-5d76-4051-84b1-0a8258bdd97c
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy35.click(Unknown Source)
+	at ramchavantestautomation.Pages.HomePage.logout(HomePage.java:53)
+	at ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredentials(LoginPageTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_Automation_Suite-class-skipped -->
           <div class="suite-Ecommerce_Automation_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -190,14 +247,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad2@gmail.com, short)">
-                  </a> <!-- verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad2@gmail.com, short) -->
-                  <span class="method-name">verifyThatUserIsNotAbleToLoginWithInValidCredentials</span>
-                  <span class="parameters">(bad2@gmail.com,short)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad1@gmail.com, 123)">
                   </a> <!-- verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad1@gmail.com, 123) -->
                   <span class="method-name">verifyThatUserIsNotAbleToLoginWithInValidCredentials</span>
@@ -234,6 +283,14 @@
                   </a> <!-- verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad1@gmail.com, 123) -->
                   <span class="method-name">verifyThatUserIsNotAbleToLoginWithInValidCredentials</span>
                   <span class="parameters">(bad1@gmail.com,123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad2@gmail.com, short)">
+                  </a> <!-- verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad2@gmail.com, short) -->
+                  <span class="method-name">verifyThatUserIsNotAbleToLoginWithInValidCredentials</span>
+                  <span class="parameters">(bad2@gmail.com,short)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -324,48 +381,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyThatUserIsAbleToLoginWithValidCredentials')
 data.setCell(0, 2, 'ramchavantestautomation.Tests.LoginPageTest')
-data.setCell(0, 3, 8069);
+data.setCell(0, 3, 21140);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyThatUserIsAbleToLoginWithValidCredentials')
 data.setCell(1, 2, 'ramchavantestautomation.Tests.LoginPageTest')
-data.setCell(1, 3, 4510);
+data.setCell(1, 3, 7752);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyThatUserIsNotAbleToLoginWithInValidCredentials')
+data.setCell(2, 1, 'verifyThatUserIsAbleToLoginWithValidCredentials')
 data.setCell(2, 2, 'ramchavantestautomation.Tests.LoginPageTest')
-data.setCell(2, 3, 3217);
+data.setCell(2, 3, 5257);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyThatUserIsNotAbleToLoginWithInValidCredentials')
+data.setCell(3, 1, 'verifyThatUserIsAbleToLoginWithValidCredentials')
 data.setCell(3, 2, 'ramchavantestautomation.Tests.LoginPageTest')
-data.setCell(3, 3, 1991);
+data.setCell(3, 3, 5199);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifyThatUserIsNotAbleToLoginWithInValidCredentials')
 data.setCell(4, 2, 'ramchavantestautomation.Tests.LoginPageTest')
-data.setCell(4, 3, 1893);
+data.setCell(4, 3, 2403);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'verifyThatUserIsNotAbleToLoginWithInValidCredentials')
 data.setCell(5, 2, 'ramchavantestautomation.Tests.LoginPageTest')
-data.setCell(5, 3, 1782);
+data.setCell(5, 3, 1641);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyThatUserIsAbleToLoginWithValidCredentials')
+data.setCell(6, 1, 'verifyThatUserIsNotAbleToLoginWithInValidCredentials')
 data.setCell(6, 2, 'ramchavantestautomation.Tests.LoginPageTest')
-data.setCell(6, 3, 1707);
+data.setCell(6, 3, 1592);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'verifyThatUserIsNotAbleToLoginWithInValidCredentials')
 data.setCell(7, 2, 'ramchavantestautomation.Tests.LoginPageTest')
-data.setCell(7, 3, 1399);
+data.setCell(7, 3, 1583);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'verifyThatUserIsNotAbleToLoginWithInValidCredentials')
 data.setCell(8, 2, 'ramchavantestautomation.Tests.LoginPageTest')
-data.setCell(8, 3, 1104);
+data.setCell(8, 3, 1568);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyThatUserIsNotAbleToLoginWithInValidCredentials')
+data.setCell(9, 2, 'ramchavantestautomation.Tests.LoginPageTest')
+data.setCell(9, 3, 1461);
 window.suiteTableData['Ecommerce_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Ecommerce_Automation_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 55 seconds</span>
               <div id="times-div-Ecommerce_Automation_Suite">
               </div> <!-- times-div-Ecommerce_Automation_Suite -->
             </div> <!-- times-div -->
@@ -393,172 +454,188 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">ramchavantestautomation.Tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setUpTest(firefox, org.testng.TestRunner@649bec2e)</span>
+                <span class="method-name">setUpTest(chrome, org.testng.TestRunner@649bec2e)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
-                <span class="method-name">setUpTest(chrome, org.testng.TestRunner@693fe6c9)</span>
-                <span class="method-start">1 ms</span>
+                <span class="method-name">setUpTest(firefox, org.testng.TestRunner@693fe6c9)</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredenti...)</span>
-                <span class="method-start">12839 ms</span>
+                <span class="method-start">18629 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setupLoginPage</span>
-                <span class="method-start">12844 ms</span>
+                <span class="method-start">18645 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyThatUserIsAbleToLoginWithValidCredentials(testautomationram@gmail.com, Test@1234)</span>
-                <span class="method-start">12920 ms</span>
+                <span class="method-start">18749 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredenti...)</span>
-                <span class="method-start">16194 ms</span>
+                <span class="method-start">20055 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setupLoginPage</span>
-                <span class="method-start">16200 ms</span>
+                <span class="method-start">20062 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyThatUserIsAbleToLoginWithValidCredentials(testautomationram@gmail.com, Test@1234)</span>
-                <span class="method-start">16202 ms</span>
+                <span class="method-start">20066 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredenti...)</span>
-                <span class="method-start">21616 ms</span>
+                <span class="method-start">25296 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredenti...)</span>
+                <span class="method-start">25304 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupLoginPage</span>
+                <span class="method-start">25310 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserIsAbleToLoginWithValidCredentials(testautomationram@gmail.com, Test@1234)</span>
+                <span class="method-start">25315 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredenti...)</span>
-                <span class="method-start">22254 ms</span>
+                <span class="method-start">27316 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
-                <span class="method-start">22389 ms</span>
+                <span class="method-start">27466 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setupLoginPage</span>
-                <span class="method-start">22391 ms</span>
+                <span class="method-start">27469 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad1@gmail.com, 123)</span>
-                <span class="method-start">22393 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
-                <span class="method-start">22398 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setupLoginPage</span>
-                <span class="method-start">22407 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad1@gmail.com, 123)</span>
-                <span class="method-start">22410 ms</span>
+                <span class="method-start">27474 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
-                <span class="method-start">24307 ms</span>
+                <span class="method-start">30532 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
-                <span class="method-start">24349 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad2@gmail.com, short)</span>
-                <span class="method-start">24352 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setupLoginPage</span>
-                <span class="method-start">24352 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
-                <span class="method-start">26324 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
-                <span class="method-start">26354 ms</span>
+                <span class="method-start">30533 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setupLoginPage</span>
-                <span class="method-start">26356 ms</span>
+                <span class="method-start">30536 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad2@gmail.com, short)</span>
-                <span class="method-start">26359 ms</span>
+                <span class="method-start">30538 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
-                <span class="method-start">26611 ms</span>
+                <span class="method-start">32709 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearDownTest</span>
-                <span class="method-start">26644 ms</span>
+                <span class="method-start">32714 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">setUpTest(edge, org.testng.TestRunner@34f5090e)</span>
-                <span class="method-start">28345 ms</span>
+                <span class="method-start">34088 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
-                <span class="method-start">28773 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDownTest</span>
-                <span class="method-start">28792 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredenti...)</span>
-                <span class="method-start">33584 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setupLoginPage</span>
-                <span class="method-start">33586 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyThatUserIsAbleToLoginWithValidCredentials(testautomationram@gmail.com, Test@1234)</span>
-                <span class="method-start">33589 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredenti...)</span>
-                <span class="method-start">35679 ms</span>
+                <span class="method-start">48078 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
-                <span class="method-start">35783 ms</span>
+                <span class="method-start">48183 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setupLoginPage</span>
-                <span class="method-start">35787 ms</span>
+                <span class="method-start">48186 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad1@gmail.com, 123)</span>
-                <span class="method-start">35788 ms</span>
+                <span class="method-start">48192 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
-                <span class="method-start">37517 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
-                <span class="method-start">37574 ms</span>
+                <span class="method-name">beforeMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredenti...)</span>
+                <span class="method-start">48357 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setupLoginPage</span>
-                <span class="method-start">37577 ms</span>
+                <span class="method-start">48359 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad2@gmail.com, short)</span>
-                <span class="method-start">37579 ms</span>
+                <span class="method-name">verifyThatUserIsAbleToLoginWithValidCredentials(testautomationram@gmail.com, Test@1234)</span>
+                <span class="method-start">48360 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
-                <span class="method-start">39979 ms</span>
+                <span class="method-start">50645 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
+                <span class="method-start">50647 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupLoginPage</span>
+                <span class="method-start">50650 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad2@gmail.com, short)</span>
+                <span class="method-start">50654 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
+                <span class="method-start">53142 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearDownTest</span>
-                <span class="method-start">40011 ms</span>
+                <span class="method-start">53143 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredenti...)</span>
+                <span class="method-start">54623 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
+                <span class="method-start">54672 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupLoginPage</span>
+                <span class="method-start">54674 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad1@gmail.com, 123)</span>
+                <span class="method-start">54678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
+                <span class="method-start">56841 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
+                <span class="method-start">56844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupLoginPage</span>
+                <span class="method-start">56845 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserIsNotAbleToLoginWithInValidCredentials(bad2@gmail.com, short)</span>
+                <span class="method-start">56846 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCre...)</span>
+                <span class="method-start">58951 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownTest</span>
+                <span class="method-start">58952 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

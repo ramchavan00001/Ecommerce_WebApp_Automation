@@ -21,7 +21,6 @@ public class BaseTest {
     protected WebAction action;
 
     private static final String LOGIN_KEYWORD = "Credentials";
-
     private static ThreadLocal<String> browserTL = new ThreadLocal<>();
 
     protected String getBrowser() {
@@ -41,13 +40,13 @@ public class BaseTest {
 
         DriverFactory.initDriver(browser);
         driver = DriverFactory.getDriver();
-
         driver.get(ConfigReader.get("base.url"));
-        Log.info("Browser launched (" + browser + ") & navigated to base URL");
 
+        Log.info("Browser launched: " + browser);
         action = new WebAction(driver);
         context.setAttribute("driver", driver);
 
+        // ✅ ONLY place where parent test is created
         ExtentTestManager.startParentTest(
                 context.getCurrentXmlTest().getName() + " [" + browser + "]"
         );
@@ -57,30 +56,15 @@ public class BaseTest {
     @BeforeMethod(alwaysRun = true)
     public void beforeMethod(Method method) {
 
-        String browser = getBrowser();
-
-        ExtentTestManager.startTest(method.getName());
-        Log.info(">>> Starting test: " + method.getName() + " | Browser: " + browser);
-
+        Log.info("Starting test: " + method.getName());
         boolean isLoginTest = method.getName().contains(LOGIN_KEYWORD);
 
         if (!isLoginTest) {
-            try {
-                LoginPage loginPage = new LoginPage(driver);
-                loginPage.login(
-                        ConfigReader.get("default.username"),
-                        ConfigReader.get("default.password")
-                );
-
-                Log.info("Default login successful");
-                ExtentTestManager.getTest().info("User logged in");
-
-            } catch (Exception e) {
-                Log.error("Login failed: " + e.getMessage());
-                throw e; // login failure should fail test
-            }
-        } else {
-            Log.info("Skipping login for login-related test");
+            LoginPage loginPage = new LoginPage(driver);
+            loginPage.login(
+                    ConfigReader.get("default.username"),
+                    ConfigReader.get("default.password")
+            );
         }
     }
 
@@ -88,29 +72,16 @@ public class BaseTest {
     @AfterMethod(alwaysRun = true)
     public void afterMethod(Method method) {
 
-        String browser = getBrowser();
         boolean isLoginTest = method.getName().contains(LOGIN_KEYWORD);
 
         if (!isLoginTest) {
             try {
                 HomePage homePage = new HomePage(driver);
                 homePage.logout();
-
-                Log.info("User logged out successfully");
-                ExtentTestManager.getTest().info("User logged out");
-
             } catch (Exception e) {
-                Log.warn("Logout skipped or failed: " + e.getMessage());
-                ExtentTestManager.getTest().warning("Logout not performed");
+                Log.warn("Logout skipped: " + e.getMessage());
             }
-        } else {
-            Log.info("Skipping logout for login test");
         }
-
-        ExtentTestManager.getTest().pass(
-                "Test finished on browser: " + browser
-        );
-        ExtentTestManager.endTest();
     }
 
     // ================= AFTER TEST =================
@@ -118,6 +89,6 @@ public class BaseTest {
     public void tearDownTest() {
         DriverFactory.quitDriver();
         browserTL.remove();
-        Log.info("Browser closed for thread " + Thread.currentThread().getId());
+        Log.info("Browser closed");
     }
 }

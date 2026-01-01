@@ -4,30 +4,28 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
 public class ExtentTestManager {
-    private static ExtentReports extent = ExtentManager.createInstance();
 
-    // ThreadLocal for parent (browser) test
+    private static ExtentReports extent = ExtentManager.getInstance();
+
     private static ThreadLocal<ExtentTest> parentTest = new ThreadLocal<>();
-    // ThreadLocal for individual method
     private static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
 
-    // Start parent test for browser
-    public static synchronized void startParentTest(String testName) {
-        ExtentTest parent = extent.createTest(testName);
-        parentTest.set(parent);
+    // Parent = Browser level
+    public static synchronized void startParentTest(String name) {
+        parentTest.set(extent.createTest(name));
     }
 
-    // Start child test (actual method)
-    public static synchronized void startTest(String testName) {
-        ExtentTest child = parentTest.get().createNode(testName);
-        test.set(child);
+    // Child = Test method
+    public static synchronized void startTest(String name) {
+        test.set(parentTest.get().createNode(name));
     }
 
     public static synchronized ExtentTest getTest() {
         return test.get();
     }
 
-    public static synchronized void endTest() {
+    // Flush ONCE per suite
+    public static synchronized void flush() {
         extent.flush();
     }
 }

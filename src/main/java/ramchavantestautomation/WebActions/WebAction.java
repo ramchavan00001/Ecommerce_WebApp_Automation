@@ -36,37 +36,43 @@ public class WebAction extends DriverFactory {
      * Capture screenshot with timestamp
      */
     public static String captureScreenshot(String testName) {
-        WebDriver driver = DriverFactory.getDriver();  // thread-safe
+        WebDriver driver = DriverFactory.getDriver(); // thread-safe
 
         if (driver == null) {
             System.out.println("⚠️ Screenshot skipped because driver is NULL");
             return null;
         }
 
-        String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss_SSS").format(new Date());
-        String reportsDir = System.getProperty("user.dir") + "/reports/";
-        String screenshotDir = reportsDir + "screenshots/";
-        String filename = testName + "_" + timestamp + ".png";
-        String fullPath = screenshotDir + filename;
+        String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss_SSS")
+                .format(new Date());
+
+        String reportsDir = System.getProperty("user.dir") + "/reports";
+        String screenshotDir = reportsDir + "/screenshots";
+
+        String fileName = testName + "_" + timestamp + ".png";
+        String fullPath = screenshotDir + "/" + fileName;
 
         try {
-            File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-
+            // Create screenshots directory if not present
             File dir = new File(screenshotDir);
             if (!dir.exists()) {
                 dir.mkdirs();
             }
 
-            FileUtils.copyFile(srcFile, new File(fullPath));
+            File src = ((TakesScreenshot) driver)
+                    .getScreenshotAs(OutputType.FILE);
 
-            // return relative path that ExtentSparkReporter understands (report location + ./screenshots/...)
-            return "./screenshots/" + filename;
-        } catch (IOException e) {
+            FileUtils.copyFile(src, new File(fullPath));
+
+            // ✅ IMPORTANT: return RELATIVE PATH (NO ./)
+            return "screenshots/" + fileName;
+
+        } catch (Exception e) {
             e.printStackTrace();
             return null;
         }
     }
-    
+
     public void scrollToElement(WebElement element) {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
     }

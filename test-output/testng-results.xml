@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="1" ignored="0" total="10" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-01T23:48:17 IST" name="Ecommerce Automation Suite" finished-at="2026-01-01T23:49:18 IST" duration-ms="60261">
+  <suite started-at="2026-01-02T09:25:53 IST" name="Ecommerce Automation Suite" finished-at="2026-01-02T09:26:43 IST" duration-ms="49622">
     <groups>
       <group name="smoke">
         <method signature="LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" name="verifyThatUserIsAbleToLoginWithValidCredentials" class="ramchavantestautomation.Tests.LoginPageTest"/>
@@ -13,159 +13,9 @@
         <method signature="LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" name="verifyThatUserIsNotAbleToLoginWithInValidCredentials" class="ramchavantestautomation.Tests.LoginPageTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-01-01T23:48:17 IST" name="Chrome Tests" finished-at="2026-01-01T23:48:50 IST" duration-ms="32940">
+    <test started-at="2026-01-02T09:25:53 IST" name="Firefox Tests" finished-at="2026-01-02T09:26:22 IST" duration-ms="29307">
       <class name="ramchavantestautomation.Tests.LoginPageTest">
-        <test-method is-config="true" signature="setUpTest(java.lang.String,org.testng.ITestContext)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-01T23:48:17 IST" name="setUpTest" finished-at="2026-01-01T23:48:33 IST" duration-ms="15607" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@649bec2e]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTest -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-01T23:48:36 IST" name="beforeMethod" finished-at="2026-01-01T23:48:36 IST" duration-ms="15" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredentials(java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-01T23:48:36 IST" name="setupLoginPage" finished-at="2026-01-01T23:48:36 IST" duration-ms="104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupLoginPage -->
-        <test-method signature="verifyThatUserIsAbleToLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-01T23:48:36 IST" name="verifyThatUserIsAbleToLoginWithValidCredentials" data-provider="loginTestData" finished-at="2026-01-01T23:48:44 IST" duration-ms="7752" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testautomationram@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test@1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyThatUserIsAbleToLoginWithValidCredentials -->
-        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-01T23:48:45 IST" name="afterMethod" finished-at="2026-01-01T23:48:45 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredentials(java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-01T23:48:45 IST" name="beforeMethod" finished-at="2026-01-01T23:48:45 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-01T23:48:45 IST" name="setupLoginPage" finished-at="2026-01-01T23:48:45 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupLoginPage -->
-        <test-method signature="verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-01T23:48:45 IST" name="verifyThatUserIsNotAbleToLoginWithInValidCredentials" data-provider="invalidLoginData" finished-at="2026-01-01T23:48:47 IST" duration-ms="2403" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bad1@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyThatUserIsNotAbleToLoginWithInValidCredentials -->
-        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-01T23:48:48 IST" name="afterMethod" finished-at="2026-01-01T23:48:48 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-01T23:48:48 IST" name="beforeMethod" finished-at="2026-01-01T23:48:48 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-01T23:48:48 IST" name="setupLoginPage" finished-at="2026-01-01T23:48:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupLoginPage -->
-        <test-method signature="verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-01T23:48:48 IST" name="verifyThatUserIsNotAbleToLoginWithInValidCredentials" data-provider="invalidLoginData" finished-at="2026-01-01T23:48:49 IST" duration-ms="1592" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bad2@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[short]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyThatUserIsNotAbleToLoginWithInValidCredentials -->
-        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-01T23:48:50 IST" name="afterMethod" finished-at="2026-01-01T23:48:50 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-01T23:48:50 IST" name="tearDownTest" finished-at="2026-01-01T23:48:50 IST" duration-ms="197" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-      </class> <!-- ramchavantestautomation.Tests.LoginPageTest -->
-    </test> <!-- Chrome Tests -->
-    <test started-at="2026-01-01T23:48:17 IST" name="Firefox Tests" finished-at="2026-01-01T23:49:12 IST" duration-ms="55090">
-      <class name="ramchavantestautomation.Tests.LoginPageTest">
-        <test-method is-config="true" signature="setUpTest(java.lang.String,org.testng.ITestContext)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:48:17 IST" name="setUpTest" finished-at="2026-01-01T23:48:37 IST" duration-ms="19835" status="PASS">
+        <test-method is-config="true" signature="setUpTest(java.lang.String,org.testng.ITestContext)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-02T09:25:53 IST" name="setUpTest" finished-at="2026-01-02T09:26:09 IST" duration-ms="15748" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:48:37 IST" name="beforeMethod" finished-at="2026-01-01T23:48:37 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-02T09:26:09 IST" name="beforeMethod" finished-at="2026-01-02T09:26:09 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -192,113 +42,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:48:37 IST" name="setupLoginPage" finished-at="2026-01-01T23:48:37 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-02T09:26:09 IST" name="setupLoginPage" finished-at="2026-01-02T09:26:09 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLoginPage -->
-        <test-method retried="true" signature="verifyThatUserIsAbleToLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:48:37 IST" name="verifyThatUserIsAbleToLoginWithValidCredentials" data-provider="loginTestData" finished-at="2026-01-01T23:48:43 IST" duration-ms="5199" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testautomationram@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test@1234]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[Element <button class="btn btn-custom"> is not clickable at point (1238,26) because another element <div class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating"> obscures it
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [d24e2d3d-5d76-4051-84b1-0a8258bdd97c, clickElement {id=80db138c-bb76-4fce-8c40-b6822b09606e}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:debuggerAddress: 127.0.0.1:28120, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 6.6.87.2-microsoft-standard..., moz:processID: 4465, moz:profile: /tmp/rust_mozprofilehbByNC, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
-Element: [[RemoteWebDriver: firefox on linux (d24e2d3d-5d76-4051-84b1-0a8258bdd97c)] -> xpath: //button[@class='btn btn-custom'][contains(., 'Sign Out')]]
-Session ID: d24e2d3d-5d76-4051-84b1-0a8258bdd97c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn-custom"> is not clickable at point (1238,26) because another element <div class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating"> obscures it
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [d24e2d3d-5d76-4051-84b1-0a8258bdd97c, clickElement {id=80db138c-bb76-4fce-8c40-b6822b09606e}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:debuggerAddress: 127.0.0.1:28120, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 6.6.87.2-microsoft-standard..., moz:processID: 4465, moz:profile: /tmp/rust_mozprofilehbByNC, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
-Element: [[RemoteWebDriver: firefox on linux (d24e2d3d-5d76-4051-84b1-0a8258bdd97c)] -> xpath: //button[@class='btn btn-custom'][contains(., 'Sign Out')]]
-Session ID: d24e2d3d-5d76-4051-84b1-0a8258bdd97c
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy35.click(Unknown Source)
-at ramchavantestautomation.Pages.HomePage.logout(HomePage.java:53)
-at ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredentials(LoginPageTest.java:48)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyThatUserIsAbleToLoginWithValidCredentials -->
-        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:48:43 IST" name="afterMethod" finished-at="2026-01-01T23:48:43 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredentials(java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:48:43 IST" name="beforeMethod" finished-at="2026-01-01T23:48:43 IST" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredentials(java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:48:43 IST" name="setupLoginPage" finished-at="2026-01-01T23:48:43 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupLoginPage -->
-        <test-method signature="verifyThatUserIsAbleToLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:48:43 IST" name="verifyThatUserIsAbleToLoginWithValidCredentials" data-provider="loginTestData" finished-at="2026-01-01T23:49:04 IST" duration-ms="21140" status="PASS">
+        <test-method signature="verifyThatUserIsAbleToLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-02T09:26:09 IST" name="verifyThatUserIsAbleToLoginWithValidCredentials" data-provider="loginTestData" finished-at="2026-01-02T09:26:14 IST" duration-ms="5305" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -314,7 +62,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyThatUserIsAbleToLoginWithValidCredentials -->
-        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:49:05 IST" name="afterMethod" finished-at="2026-01-01T23:49:05 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-02T09:26:16 IST" name="afterMethod" finished-at="2026-01-02T09:26:16 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -325,7 +73,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:49:06 IST" name="beforeMethod" finished-at="2026-01-01T23:49:06 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-02T09:26:16 IST" name="beforeMethod" finished-at="2026-01-02T09:26:16 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -336,11 +84,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:49:06 IST" name="setupLoginPage" finished-at="2026-01-01T23:49:06 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-02T09:26:16 IST" name="setupLoginPage" finished-at="2026-01-02T09:26:16 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLoginPage -->
-        <test-method signature="verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:49:06 IST" name="verifyThatUserIsNotAbleToLoginWithInValidCredentials" data-provider="invalidLoginData" finished-at="2026-01-01T23:49:07 IST" duration-ms="1583" status="PASS">
+        <test-method signature="verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-02T09:26:16 IST" name="verifyThatUserIsNotAbleToLoginWithInValidCredentials" data-provider="invalidLoginData" finished-at="2026-01-02T09:26:18 IST" duration-ms="1875" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -356,7 +104,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyThatUserIsNotAbleToLoginWithInValidCredentials -->
-        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:49:08 IST" name="afterMethod" finished-at="2026-01-01T23:49:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-02T09:26:18 IST" name="afterMethod" finished-at="2026-01-02T09:26:18 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -367,7 +115,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:49:08 IST" name="beforeMethod" finished-at="2026-01-01T23:49:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-02T09:26:18 IST" name="beforeMethod" finished-at="2026-01-02T09:26:18 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -378,11 +126,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:49:08 IST" name="setupLoginPage" finished-at="2026-01-01T23:49:08 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-02T09:26:18 IST" name="setupLoginPage" finished-at="2026-01-02T09:26:18 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLoginPage -->
-        <test-method signature="verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:49:08 IST" name="verifyThatUserIsNotAbleToLoginWithInValidCredentials" data-provider="invalidLoginData" finished-at="2026-01-01T23:49:10 IST" duration-ms="1641" status="PASS">
+        <test-method signature="verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-02T09:26:18 IST" name="verifyThatUserIsNotAbleToLoginWithInValidCredentials" data-provider="invalidLoginData" finished-at="2026-01-02T09:26:20 IST" duration-ms="1405" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -398,7 +146,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyThatUserIsNotAbleToLoginWithInValidCredentials -->
-        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:49:10 IST" name="afterMethod" finished-at="2026-01-01T23:49:10 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-02T09:26:21 IST" name="afterMethod" finished-at="2026-01-02T09:26:21 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -409,15 +157,165 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-01T23:49:10 IST" name="tearDownTest" finished-at="2026-01-01T23:49:12 IST" duration-ms="1917" status="PASS">
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@3c0be339]" started-at="2026-01-02T09:26:21 IST" name="tearDownTest" finished-at="2026-01-02T09:26:22 IST" duration-ms="1823" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
       </class> <!-- ramchavantestautomation.Tests.LoginPageTest -->
     </test> <!-- Firefox Tests -->
-    <test started-at="2026-01-01T23:48:51 IST" name="Edge Tests" finished-at="2026-01-01T23:49:18 IST" duration-ms="26150">
+    <test started-at="2026-01-02T09:25:53 IST" name="Chrome Tests" finished-at="2026-01-02T09:26:23 IST" duration-ms="29595">
       <class name="ramchavantestautomation.Tests.LoginPageTest">
-        <test-method is-config="true" signature="setUpTest(java.lang.String,org.testng.ITestContext)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-01T23:48:51 IST" name="setUpTest" finished-at="2026-01-01T23:49:06 IST" duration-ms="14185" status="PASS">
+        <test-method is-config="true" signature="setUpTest(java.lang.String,org.testng.ITestContext)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-02T09:25:53 IST" name="setUpTest" finished-at="2026-01-02T09:26:05 IST" duration-ms="12265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@649bec2e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-02T09:26:07 IST" name="beforeMethod" finished-at="2026-01-02T09:26:07 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-02T09:26:07 IST" name="setupLoginPage" finished-at="2026-01-02T09:26:07 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLoginPage -->
+        <test-method signature="verifyThatUserIsAbleToLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-02T09:26:07 IST" name="verifyThatUserIsAbleToLoginWithValidCredentials" data-provider="loginTestData" finished-at="2026-01-02T09:26:14 IST" duration-ms="6651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testautomationram@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserIsAbleToLoginWithValidCredentials -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-02T09:26:15 IST" name="afterMethod" finished-at="2026-01-02T09:26:15 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsAbleToLoginWithValidCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-02T09:26:15 IST" name="beforeMethod" finished-at="2026-01-02T09:26:15 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-02T09:26:15 IST" name="setupLoginPage" finished-at="2026-01-02T09:26:15 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLoginPage -->
+        <test-method signature="verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-02T09:26:15 IST" name="verifyThatUserIsNotAbleToLoginWithInValidCredentials" data-provider="invalidLoginData" finished-at="2026-01-02T09:26:18 IST" duration-ms="2847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bad1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserIsNotAbleToLoginWithInValidCredentials -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-02T09:26:19 IST" name="afterMethod" finished-at="2026-01-02T09:26:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-02T09:26:19 IST" name="beforeMethod" finished-at="2026-01-02T09:26:19 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-02T09:26:19 IST" name="setupLoginPage" finished-at="2026-01-02T09:26:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLoginPage -->
+        <test-method signature="verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-02T09:26:19 IST" name="verifyThatUserIsNotAbleToLoginWithInValidCredentials" data-provider="invalidLoginData" finished-at="2026-01-02T09:26:22 IST" duration-ms="3048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bad2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[short]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserIsNotAbleToLoginWithInValidCredentials -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-02T09:26:22 IST" name="afterMethod" finished-at="2026-01-02T09:26:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ramchavantestautomation.Tests.LoginPageTest.verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@5dda768f]" started-at="2026-01-02T09:26:22 IST" name="tearDownTest" finished-at="2026-01-02T09:26:23 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- ramchavantestautomation.Tests.LoginPageTest -->
+    </test> <!-- Chrome Tests -->
+    <test started-at="2026-01-02T09:26:23 IST" name="Edge Tests" finished-at="2026-01-02T09:26:43 IST" duration-ms="19655">
+      <class name="ramchavantestautomation.Tests.LoginPageTest">
+        <test-method is-config="true" signature="setUpTest(java.lang.String,org.testng.ITestContext)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-02T09:26:23 IST" name="setUpTest" finished-at="2026-01-02T09:26:34 IST" duration-ms="11037" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -433,7 +331,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-01T23:49:06 IST" name="beforeMethod" finished-at="2026-01-01T23:49:06 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-02T09:26:34 IST" name="beforeMethod" finished-at="2026-01-02T09:26:34 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -444,11 +342,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-01T23:49:06 IST" name="setupLoginPage" finished-at="2026-01-01T23:49:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupLoginPage -->
-        <test-method signature="verifyThatUserIsAbleToLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-01T23:49:06 IST" name="verifyThatUserIsAbleToLoginWithValidCredentials" data-provider="loginTestData" finished-at="2026-01-01T23:49:11 IST" duration-ms="5257" status="PASS">
+        <test-method signature="verifyThatUserIsAbleToLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-02T09:26:34 IST" name="verifyThatUserIsAbleToLoginWithValidCredentials" data-provider="loginTestData" finished-at="2026-01-02T09:26:37 IST" duration-ms="3082" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -464,7 +358,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyThatUserIsAbleToLoginWithValidCredentials -->
-        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-01T23:49:12 IST" name="afterMethod" finished-at="2026-01-01T23:49:12 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-02T09:26:34 IST" name="setupLoginPage" finished-at="2026-01-02T09:26:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLoginPage -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-02T09:26:38 IST" name="afterMethod" finished-at="2026-01-02T09:26:38 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -475,7 +373,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-01T23:49:12 IST" name="beforeMethod" finished-at="2026-01-01T23:49:12 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-02T09:26:38 IST" name="setupLoginPage" finished-at="2026-01-02T09:26:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLoginPage -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-02T09:26:38 IST" name="beforeMethod" finished-at="2026-01-02T09:26:38 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -486,11 +388,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-01T23:49:12 IST" name="setupLoginPage" finished-at="2026-01-01T23:49:12 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupLoginPage -->
-        <test-method signature="verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-01T23:49:12 IST" name="verifyThatUserIsNotAbleToLoginWithInValidCredentials" data-provider="invalidLoginData" finished-at="2026-01-01T23:49:13 IST" duration-ms="1461" status="PASS">
+        <test-method signature="verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-02T09:26:38 IST" name="verifyThatUserIsNotAbleToLoginWithInValidCredentials" data-provider="invalidLoginData" finished-at="2026-01-02T09:26:39 IST" duration-ms="1305" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -506,7 +404,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyThatUserIsNotAbleToLoginWithInValidCredentials -->
-        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-01T23:49:14 IST" name="afterMethod" finished-at="2026-01-01T23:49:14 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-02T09:26:40 IST" name="afterMethod" finished-at="2026-01-02T09:26:40 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -517,7 +415,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-01T23:49:14 IST" name="beforeMethod" finished-at="2026-01-01T23:49:14 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-02T09:26:40 IST" name="beforeMethod" finished-at="2026-01-02T09:26:40 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -528,11 +426,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-01T23:49:14 IST" name="setupLoginPage" finished-at="2026-01-01T23:49:14 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupLoginPage()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-02T09:26:40 IST" name="setupLoginPage" finished-at="2026-01-02T09:26:40 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLoginPage -->
-        <test-method signature="verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-01T23:49:14 IST" name="verifyThatUserIsNotAbleToLoginWithInValidCredentials" data-provider="invalidLoginData" finished-at="2026-01-01T23:49:16 IST" duration-ms="1568" status="PASS">
+        <test-method signature="verifyThatUserIsNotAbleToLoginWithInValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-02T09:26:40 IST" name="verifyThatUserIsNotAbleToLoginWithInValidCredentials" data-provider="invalidLoginData" finished-at="2026-01-02T09:26:41 IST" duration-ms="1034" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -548,7 +446,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyThatUserIsNotAbleToLoginWithInValidCredentials -->
-        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-01T23:49:16 IST" name="afterMethod" finished-at="2026-01-01T23:49:16 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-02T09:26:41 IST" name="afterMethod" finished-at="2026-01-02T09:26:41 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -559,7 +457,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-01T23:49:16 IST" name="tearDownTest" finished-at="2026-01-01T23:49:18 IST" duration-ms="1280" status="PASS">
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:ramchavantestautomation.Tests.LoginPageTest@7a675056]" started-at="2026-01-02T09:26:41 IST" name="tearDownTest" finished-at="2026-01-02T09:26:43 IST" duration-ms="1200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->

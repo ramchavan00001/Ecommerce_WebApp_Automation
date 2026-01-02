@@ -25,9 +25,10 @@ pipeline {
         stage('Publish Reports') {
             steps {
 
+                // ✅ Publish TestNG XML results
                 junit 'target\\surefire-reports\\*.xml'
 
-                // ✅ Publish browser-viewable report
+                // ✅ Publish Extent Report
                 publishHTML(target: [
                     reportDir: 'reports',
                     reportFiles: 'ExtentReport.html',
@@ -37,62 +38,87 @@ pipeline {
                     allowMissing: false
                 ])
 
-                // ✅ Create ZIP for clean local viewing
-                bat '''
-                if exist ExtentReport.zip del ExtentReport.zip
-                powershell Compress-Archive -Path reports\\* -DestinationPath ExtentReport.zip
-                '''
+                // ✅ Publish TestNG HTML Report (Surefire)
+                publishHTML(target: [
+                    reportDir: 'target\\surefire-reports',
+                    reportFiles: 'index.html',
+                    reportName: 'TestNG Execution Report',
+                    keepAll: true,
+                    alwaysLinkToLastBuild: true,
+                    allowMissing: true
+                ])
 
-                // ✅ Archive everything
-                archiveArtifacts artifacts: 'ExtentReport.zip, reports\\**, target\\**', fingerprint: true
+                // Optional archive (for download only, not email)
+                archiveArtifacts artifacts: 'reports\\**, target\\surefire-reports\\**', fingerprint: true
             }
         }
     }
 
     post {
+
+        always {
+            echo 'Build finished. Reports generated.'
+        }
+
         success {
+            echo '✅ Nightly Regression Executed Successfully'
+
             emailext(
                 subject: "✅ Automation Passed | ${JOB_NAME} #${BUILD_NUMBER}",
+                mimeType: 'text/html',
                 body: """
                     <h2 style="color:green;">Nightly Automation Execution Successful</h2>
+
                     <p><b>Job:</b> ${JOB_NAME}</p>
                     <p><b>Build Number:</b> #${BUILD_NUMBER}</p>
 
-                    <p><b>Online Report (Jenkins):</b>
-                        <a href='${BUILD_URL}Extent_20Automation_20Report/'>View Report</a>
-                    </p>
+                    <hr/>
 
-                    <p><b>Clean Report:</b>
-                        Download <b>ExtentReport.zip</b>, unzip, open <b>ExtentReport.html</b>
-                    </p>
+                    <p><b>📊 Extent Report (with screenshots):</b><br/>
+                    <a href='${BUILD_URL}Extent_20Automation_20Report/'>
+                        View Extent Report
+                    </a></p>
+
+                    <p><b>🧪 TestNG Execution Report:</b><br/>
+                    <a href='${BUILD_URL}TestNG_20Execution_20Report/'>
+                        View TestNG Report
+                    </a></p>
+
+                    <hr/>
+                    <p>📌 Open reports in browser for full UI & screenshots.</p>
                 """,
-                to: 'ramchavan00001@gmail.com',
-                attachmentsPattern: 'ExtentReport.zip'
+                to: 'ramchavan00001@gmail.com'
             )
         }
 
         failure {
+            echo '❌ Nightly Regression Failed'
+
             emailext(
                 subject: "❌ Automation Failed | ${JOB_NAME} #${BUILD_NUMBER}",
+                mimeType: 'text/html',
                 body: """
-                    <h2 style="color:red;">Automation Execution Failed</h2>
+                    <h2 style="color:red;">Nightly Automation Execution Failed</h2>
+
                     <p><b>Job:</b> ${JOB_NAME}</p>
                     <p><b>Build Number:</b> #${BUILD_NUMBER}</p>
 
-                    <p><b>Console Logs:</b>
-                        <a href='${BUILD_URL}console'>View Logs</a>
-                    </p>
+                    <p><b>Console Logs:</b><br/>
+                    <a href='${BUILD_URL}console'>View Console Logs</a></p>
 
-                    <p><b>Online Report:</b>
-                        <a href='${BUILD_URL}Extent_20Automation_20Report/'>View Report</a>
-                    </p>
+                    <hr/>
 
-                    <p><b>Clean Report:</b>
-                        Download attached ZIP
-                    </p>
+                    <p><b>📊 Extent Report:</b><br/>
+                    <a href='${BUILD_URL}Extent_20Automation_20Report/'>
+                        View Extent Report
+                    </a></p>
+
+                    <p><b>🧪 TestNG Execution Report:</b><br/>
+                    <a href='${BUILD_URL}TestNG_20Execution_20Report/'>
+                        View TestNG Report
+                    </a></p>
                 """,
-                to: 'ramchavan00001@gmail.com',
-                attachmentsPattern: 'ExtentReport.zip'
+                to: 'ramchavan00001@gmail.com'
             )
         }
     }

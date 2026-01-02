@@ -5,6 +5,10 @@ pipeline {
         cron('H 1 * * *')
     }
 
+    environment {
+        FAILED_TEST_COUNT = "0"
+    }
+
     stages {
 
         stage('Checkout Code') {
@@ -24,8 +28,13 @@ pipeline {
 
         stage('Publish Reports') {
             steps {
-
-                junit 'target\\surefire-reports\\*.xml'
+                script {
+                    def testResults = junit(
+                        testResults: 'target/surefire-reports/*.xml',
+                        allowEmptyResults: true
+                    )
+                    env.FAILED_TEST_COUNT = testResults.failCount.toString()
+                }
 
                 publishHTML(target: [
                     reportDir: 'reports',
@@ -37,7 +46,7 @@ pipeline {
                 ])
 
                 publishHTML(target: [
-                    reportDir: 'target\\surefire-reports',
+                    reportDir: 'target/surefire-reports',
                     reportFiles: 'index.html',
                     reportName: 'TestNG Execution Report',
                     keepAll: true,
@@ -46,8 +55,8 @@ pipeline {
                 ])
 
                 archiveArtifacts artifacts: '''
-                    reports\\ExtentReport.html,
-                    target\\surefire-reports\\**
+                    reports/ExtentReport.html,
+                    target/surefire-reports/**
                 ''', fingerprint: true
             }
         }
@@ -55,61 +64,66 @@ pipeline {
 
     post {
 
-        always {
+        success {
             script {
-                FAILED_TEST_COUNT =
-                    currentBuild.rawBuild
-                        .getAction(hudson.tasks.junit.TestResultAction)
-                        ?.getFailCount() ?: 0
+                def attachments = "reports/ExtentReport.html,target/surefire-reports/testng-results.xml"
+
+                if (FAILED_TEST_COUNT.toInteger() > 0) {
+                    attachments += ",target/surefire-reports/testng-failed.xml"
+                }
+
+                emailext(
+                    subject: "Automation TestSuite Result - ${FAILED_TEST_COUNT} Testcase Failed",
+                    mimeType: 'text/html',
+                    to: 'ramchavan00001@gmail.com',
+                    body: """
+                        <h2 style="color:green;">Automation Execution Completed Successfully</h2>
+
+                        <p><b>Failed Testcases:</b> ${FAILED_TEST_COUNT}</p>
+
+                        <p><b>Extent Report:</b><br/>
+                        <a href="${BUILD_URL}Extent_20Automation_20Report/">View Extent Report</a></p>
+
+                        <p><b>TestNG Report:</b><br/>
+                        <a href="${BUILD_URL}TestNG_20Execution_20Report/">View TestNG Report</a></p>
+                    """,
+                    attachmentsPattern: attachments
+                )
             }
         }
 
-        success {
-            emailext(
-                subject: "Ecommerce_Web_Automation TestSuite Result – ${FAILED_TEST_COUNT} Testcase Failed",
-                mimeType: 'text/html',
-                to: 'ramchavan00001@gmail.com',
-                body: """
-                    <h2 style="color:green;">Automation Execution Completed Successfully</h2>
-
-                    <p><b>Failed Testcases:</b> ${FAILED_TEST_COUNT}</p>
-
-                    <p><b>Extent Report:</b><br/>
-                    <a href='${BUILD_URL}Extent_20Automation_20Report/'>View Extent Report</a></p>
-
-                    <p><b>TestNG Report:</b><br/>
-                    <a href='${BUILD_URL}TestNG_20Execution_20Report/'>View TestNG Report</a></p>
-                """,
-                attachmentsPattern: 'reports\\ExtentReport.html'
-            )
-        }
-
         unstable {
-            emailext(
-                subject: "Ecommerce_Web_Automation TestSuite Result – ${FAILED_TEST_COUNT} Testcase Failed",
-                mimeType: 'text/html',
-                to: 'ramchavan00001@gmail.com',
-                body: """
-                    <h2 style="color:orange;">Automation Execution Completed with Failures</h2>
+            script {
+                def attachments = "reports/ExtentReport.html,target/surefire-reports/testng-results.xml"
 
-                    <p><b>Failed Testcases:</b> ${FAILED_TEST_COUNT}</p>
+                if (FAILED_TEST_COUNT.toInteger() > 0) {
+                    attachments += ",target/surefire-reports/testng-failed.xml"
+                }
 
-                    <p><b>Extent Report (Failures highlighted):</b><br/>
-                    <a href='${BUILD_URL}Extent_20Automation_20Report/'>View Extent Report</a></p>
+                emailext(
+                    subject: "Automation TestSuite Result - ${FAILED_TEST_COUNT} Testcase Failed",
+                    mimeType: 'text/html',
+                    to: 'ramchavan00001@gmail.com',
+                    body: """
+                        <h2 style="color:orange;">Automation Execution Completed with Failures</h2>
 
-                    <p><b>TestNG Execution Report:</b><br/>
-                    <a href='${BUILD_URL}TestNG_20Execution_20Report/'>View TestNG Report</a></p>
-                """,
-                attachmentsPattern: '''
-                    reports\\ExtentReport.html,
-                    target\\surefire-reports\\testng-failed.xml
-                '''
-            )
+                        <p>Some test cases failed in this pipeline.</p>
+                        <p><b>Failed Testcases:</b> ${FAILED_TEST_COUNT}</p>
+
+                        <p><b>Extent Report:</b><br/>
+                        <a href="${BUILD_URL}Extent_20Automation_20Report/">View Extent Report</a></p>
+
+                        <p><b>TestNG Execution Report:</b><br/>
+                        <a href="${BUILD_URL}TestNG_20Execution_20Report/">View TestNG Report</a></p>
+                    """,
+                    attachmentsPattern: attachments
+                )
+            }
         }
 
         failure {
             emailext(
-                subject: "Jenkins Build Failed – ${JOB_NAME}",
+                subject: "Jenkins Build Failed - ${JOB_NAME}",
                 mimeType: 'text/html',
                 to: 'ramchavan00001@gmail.com',
                 body: """
@@ -118,10 +132,10 @@ pipeline {
                     <p>The build failed due to infrastructure or execution issues.</p>
 
                     <p><b>Job:</b> ${JOB_NAME}</p>
-                    <p><b>Build:</b> #${BUILD_NUMBER}</p>
+                    <p><b>Build Number:</b> ${BUILD_NUMBER}</p>
 
                     <p><b>Console Logs:</b><br/>
-                    <a href='${BUILD_URL}console'>View Logs</a></p>
+                    <a href="${BUILD_URL}console">View Logs</a></p>
                 """
             )
         }

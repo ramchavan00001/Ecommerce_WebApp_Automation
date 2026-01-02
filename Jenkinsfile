@@ -25,7 +25,6 @@ pipeline {
         stage('Publish Reports') {
             steps {
 
-                // ✅ Publish TestNG XML results
                 junit 'target\\surefire-reports\\*.xml'
 
                 // ✅ Publish Extent Report
@@ -38,7 +37,7 @@ pipeline {
                     allowMissing: false
                 ])
 
-                // ✅ Publish TestNG HTML Report (Surefire)
+                // ✅ Publish TestNG HTML Report
                 publishHTML(target: [
                     reportDir: 'target\\surefire-reports',
                     reportFiles: 'index.html',
@@ -48,8 +47,7 @@ pipeline {
                     allowMissing: true
                 ])
 
-                // Optional archive (for download only, not email)
-                archiveArtifacts artifacts: 'reports\\**, target\\surefire-reports\\**', fingerprint: true
+                archiveArtifacts artifacts: 'reports\\ExtentReport.html, target\\surefire-reports\\**', fingerprint: true
             }
         }
     }
@@ -66,6 +64,8 @@ pipeline {
             emailext(
                 subject: "✅ Automation Passed | ${JOB_NAME} #${BUILD_NUMBER}",
                 mimeType: 'text/html',
+                to: 'ramchavan00001@gmail.com',
+
                 body: """
                     <h2 style="color:green;">Nightly Automation Execution Successful</h2>
 
@@ -74,7 +74,7 @@ pipeline {
 
                     <hr/>
 
-                    <p><b>📊 Extent Report (with screenshots):</b><br/>
+                    <p><b>📊 Extent Report (Jenkins Link):</b><br/>
                     <a href='${BUILD_URL}Extent_20Automation_20Report/'>
                         View Extent Report
                     </a></p>
@@ -85,9 +85,11 @@ pipeline {
                     </a></p>
 
                     <hr/>
-                    <p>📌 Open reports in browser for full UI & screenshots.</p>
+                    <p>📎 ExtentReport.html is attached for quick reference.</p>
                 """,
-                to: 'ramchavan00001@gmail.com'
+
+                // ✅ ATTACH EXTENT HTML
+                attachmentsPattern: 'reports\\ExtentReport.html'
             )
         }
 
@@ -97,6 +99,8 @@ pipeline {
             emailext(
                 subject: "❌ Automation Failed | ${JOB_NAME} #${BUILD_NUMBER}",
                 mimeType: 'text/html',
+                to: 'ramchavan00001@gmail.com',
+
                 body: """
                     <h2 style="color:red;">Nightly Automation Execution Failed</h2>
 
@@ -117,8 +121,13 @@ pipeline {
                     <a href='${BUILD_URL}TestNG_20Execution_20Report/'>
                         View TestNG Report
                     </a></p>
+
+                    <hr/>
+                    <p>📎 ExtentReport.html is attached.</p>
                 """,
-                to: 'ramchavan00001@gmail.com'
+
+                // ✅ ATTACH EXTENT HTML EVEN ON FAILURE
+                attachmentsPattern: 'reports\\ExtentReport.html'
             )
         }
     }

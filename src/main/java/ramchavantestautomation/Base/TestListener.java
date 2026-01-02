@@ -20,16 +20,20 @@ public class TestListener implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult result) {
 
-        String screenshotPath =
-                WebAction.captureScreenshot(result.getMethod().getMethodName() + "_PASS");
+        // 🔴 Screenshot capture on SUCCESS is intentionally disabled
+        // String screenshotPath =
+        //         WebAction.captureScreenshot(result.getMethod().getMethodName() + "_PASS");
 
-        if (screenshotPath != null) {
-            ExtentTestManager.getTest()
-                    .log(Status.PASS, "Test Passed")
-                    .pass(MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
-        } else {
-            ExtentTestManager.getTest().log(Status.PASS, "Test Passed");
-        }
+        // if (screenshotPath != null) {
+        //     ExtentTestManager.getTest()
+        //             .log(Status.PASS, "Test Passed")
+        //             .pass(MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+        // } else {
+        //     ExtentTestManager.getTest().log(Status.PASS, "Test Passed");
+        // }
+
+        // ✅ Only log PASS status (no screenshot)
+        ExtentTestManager.getTest().log(Status.PASS, "Test Passed");
     }
 
     @Override

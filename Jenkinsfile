@@ -27,7 +27,6 @@ pipeline {
 
                 junit 'target\\surefire-reports\\*.xml'
 
-                // ✅ Publish Extent Report
                 publishHTML(target: [
                     reportDir: 'reports',
                     reportFiles: 'ExtentReport.html',
@@ -37,7 +36,6 @@ pipeline {
                     allowMissing: false
                 ])
 
-                // ✅ Publish TestNG HTML Report
                 publishHTML(target: [
                     reportDir: 'target\\surefire-reports',
                     reportFiles: 'index.html',
@@ -47,7 +45,10 @@ pipeline {
                     allowMissing: true
                 ])
 
-                archiveArtifacts artifacts: 'reports\\ExtentReport.html, target\\surefire-reports\\**', fingerprint: true
+                archiveArtifacts artifacts: '''
+                    reports\\ExtentReport.html,
+                    target\\surefire-reports\\**
+                ''', fingerprint: true
             }
         }
     }
@@ -55,79 +56,73 @@ pipeline {
     post {
 
         always {
-            echo 'Build finished. Reports generated.'
+            script {
+                FAILED_TEST_COUNT =
+                    currentBuild.rawBuild
+                        .getAction(hudson.tasks.junit.TestResultAction)
+                        ?.getFailCount() ?: 0
+            }
         }
 
         success {
-            echo '✅ Nightly Regression Executed Successfully'
-
             emailext(
-                subject: "✅ Automation Passed | ${JOB_NAME} #${BUILD_NUMBER}",
+                subject: "Ecommerce_Web_Automation TestSuite Result – ${FAILED_TEST_COUNT} Testcase Failed",
                 mimeType: 'text/html',
                 to: 'ramchavan00001@gmail.com',
-
                 body: """
-                    <h2 style="color:green;">Nightly Automation Execution Successful</h2>
+                    <h2 style="color:green;">Automation Execution Completed Successfully</h2>
 
-                    <p><b>Job:</b> ${JOB_NAME}</p>
-                    <p><b>Build Number:</b> #${BUILD_NUMBER}</p>
+                    <p><b>Failed Testcases:</b> ${FAILED_TEST_COUNT}</p>
 
-                    <hr/>
+                    <p><b>Extent Report:</b><br/>
+                    <a href='${BUILD_URL}Extent_20Automation_20Report/'>View Extent Report</a></p>
 
-                    <p><b>📊 Extent Report (Jenkins Link):</b><br/>
-                    <a href='${BUILD_URL}Extent_20Automation_20Report/'>
-                        View Extent Report
-                    </a></p>
-
-                    <p><b>🧪 TestNG Execution Report:</b><br/>
-                    <a href='${BUILD_URL}TestNG_20Execution_20Report/'>
-                        View TestNG Report
-                    </a></p>
-
-                    <hr/>
-                    <p>📎 ExtentReport.html is attached for quick reference.</p>
+                    <p><b>TestNG Report:</b><br/>
+                    <a href='${BUILD_URL}TestNG_20Execution_20Report/'>View TestNG Report</a></p>
                 """,
-
-                // ✅ ATTACH EXTENT HTML
                 attachmentsPattern: 'reports\\ExtentReport.html'
             )
         }
 
-        failure {
-            echo '❌ Nightly Regression Failed'
-
+        unstable {
             emailext(
-                subject: "❌ Automation Failed | ${JOB_NAME} #${BUILD_NUMBER}",
+                subject: "Ecommerce_Web_Automation TestSuite Result – ${FAILED_TEST_COUNT} Testcase Failed",
                 mimeType: 'text/html',
                 to: 'ramchavan00001@gmail.com',
-
                 body: """
-                    <h2 style="color:red;">Nightly Automation Execution Failed</h2>
+                    <h2 style="color:orange;">Automation Execution Completed with Failures</h2>
+
+                    <p><b>Failed Testcases:</b> ${FAILED_TEST_COUNT}</p>
+
+                    <p><b>Extent Report (Failures highlighted):</b><br/>
+                    <a href='${BUILD_URL}Extent_20Automation_20Report/'>View Extent Report</a></p>
+
+                    <p><b>TestNG Execution Report:</b><br/>
+                    <a href='${BUILD_URL}TestNG_20Execution_20Report/'>View TestNG Report</a></p>
+                """,
+                attachmentsPattern: '''
+                    reports\\ExtentReport.html,
+                    target\\surefire-reports\\testng-failed.xml
+                '''
+            )
+        }
+
+        failure {
+            emailext(
+                subject: "Jenkins Build Failed – ${JOB_NAME}",
+                mimeType: 'text/html',
+                to: 'ramchavan00001@gmail.com',
+                body: """
+                    <h2 style="color:red;">Jenkins Pipeline Failed</h2>
+
+                    <p>The build failed due to infrastructure or execution issues.</p>
 
                     <p><b>Job:</b> ${JOB_NAME}</p>
-                    <p><b>Build Number:</b> #${BUILD_NUMBER}</p>
+                    <p><b>Build:</b> #${BUILD_NUMBER}</p>
 
                     <p><b>Console Logs:</b><br/>
-                    <a href='${BUILD_URL}console'>View Console Logs</a></p>
-
-                    <hr/>
-
-                    <p><b>📊 Extent Report:</b><br/>
-                    <a href='${BUILD_URL}Extent_20Automation_20Report/'>
-                        View Extent Report
-                    </a></p>
-
-                    <p><b>🧪 TestNG Execution Report:</b><br/>
-                    <a href='${BUILD_URL}TestNG_20Execution_20Report/'>
-                        View TestNG Report
-                    </a></p>
-
-                    <hr/>
-                    <p>📎 ExtentReport.html is attached.</p>
-                """,
-
-                // ✅ ATTACH EXTENT HTML EVEN ON FAILURE
-                attachmentsPattern: 'reports\\ExtentReport.html'
+                    <a href='${BUILD_URL}console'>View Logs</a></p>
+                """
             )
         }
     }

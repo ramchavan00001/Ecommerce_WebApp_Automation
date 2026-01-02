@@ -46,41 +46,51 @@ pipeline {
         }
 
         success {
-            echo '✅ Nightly Regression Executed Successfully'
-
             emailext(
                 subject: "✅ Automation Passed | ${JOB_NAME} #${BUILD_NUMBER}",
                 body: """
                     <h2 style="color:green;">Nightly Automation Execution Successful</h2>
+
                     <p><b>Job:</b> ${JOB_NAME}</p>
-                    <p><b>Build Number:</b> #${BUILD_NUMBER}</p>
-                    <p><b>Extent Report:</b>
-                        <a href='${BUILD_URL}Extent_20Automation_20Report/'>View Report</a>
+                    <p><b>Build:</b> #${BUILD_NUMBER}</p>
+
+                    <p>
+                        📊 <b>Extent Automation Report:</b><br/>
+                        <a href="${BUILD_URL}Extent_20Automation_20Report/">
+                            Click here to view report
+                        </a>
                     </p>
                 """,
                 to: 'ramchavan00001@gmail.com',
-                attachmentsPattern: 'reports\\ExtentReport.html'
+                mimeType: 'text/html'
             )
         }
 
         failure {
-            echo '❌ Nightly Regression Failed - Check Logs'
-
             emailext(
                 subject: "❌ Automation Failed | ${JOB_NAME} #${BUILD_NUMBER}",
                 body: """
                     <h2 style="color:red;">Nightly Automation Execution Failed</h2>
+
                     <p><b>Job:</b> ${JOB_NAME}</p>
-                    <p><b>Build Number:</b> #${BUILD_NUMBER}</p>
-                    <p><b>Console Logs:</b>
-                        <a href='${BUILD_URL}console'>View Logs</a>
+                    <p><b>Build:</b> #${BUILD_NUMBER}</p>
+
+                    <p>
+                        📄 <b>Console Logs:</b><br/>
+                        <a href="${BUILD_URL}console">
+                            View Console Output
+                        </a>
                     </p>
-                    <p><b>Extent Report:</b>
-                        <a href='${BUILD_URL}Extent_20Automation_20Report/'>View Report</a>
+
+                    <p>
+                        📊 <b>Extent Automation Report:</b><br/>
+                        <a href="${BUILD_URL}Extent_20Automation_20Report/">
+                            Click here to view report
+                        </a>
                     </p>
                 """,
                 to: 'ramchavan00001@gmail.com',
-                attachmentsPattern: 'reports\\ExtentReport.html'
+                mimeType: 'text/html'
             )
         }
     }
